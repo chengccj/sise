@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">sise</string>
+    <string name="topbar">华软mysise</string>
+    <string name="info">个人信息  </string>
+    <string name="schedlue">课程表</string>
+    <string name="attendance">考勤</string>
+    <string name="test">考试时间</string>
+    <string name="scores">考试成绩</string>
+    <string name="Rewards_punishments">奖惩情况</string>
+    <string name="courseinfo">课程信息</string>
+    <string name="Violations">晚归，违规电器</string>
+</resources>

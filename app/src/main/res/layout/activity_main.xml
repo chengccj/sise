@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/topbar"
+        app:titleTextColor="@android:color/white">
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="false"
+            android:background="#1DFFDC"
+            android:onClick="login"
+            android:scaleType="fitStart"
+            android:src="@drawable/icon"
+            android:visibility="visible"
+            tools:ignore="OnClick" />
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:text="Mysise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:theme="@style/QUMITheme">
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/info"
+            android:layout_width="39dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/info"
+            app:qmui_radiusTopLeft="6dp"
+            app:qmui_radiusTopRight="6dp" />
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/schedlue"
+            android:text="@string/schedlue"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:qmui_radiusBottomLeft="6dp"
+            app:qmui_radiusBottomRight="6dp"
+            app:qmui_radiusTopLeft="6dp"
+            app:qmui_radiusTopRight="6dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom|center_horizontal"
+        android:theme="@style/QUMITheme">
+
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/scores"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/scores"
+            app:qmui_radiusBottomLeft="6dp"
+            app:qmui_radiusBottomRight="6dp"
+            app:qmui_radiusTopLeft="6dp"
+            app:qmui_radiusTopRight="6dp" />
+
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/Rewards_punishments"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/Rewards_punishments"
+            app:qmui_radiusBottomLeft="6dp"
+            app:qmui_radiusBottomRight="6dp"
+            app:qmui_radiusTopLeft="6dp"
+            app:qmui_radiusTopRight="6dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:theme="@style/QUMITheme">
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/courseinfo"
+            android:layout_width="107dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/courseinfo"
+            app:qmui_radiusBottomLeft="6dp"
+            app:qmui_radiusBottomRight="6dp"
+            app:qmui_radiusTopLeft="6dp"
+            app:qmui_radiusTopRight="6dp" />
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/Violations"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/Violations"
+            app:qmui_radiusBottomLeft="6dp"
+            app:qmui_radiusBottomRight="6dp"
+            app:qmui_radiusTopLeft="6dp"
+            app:qmui_radiusTopRight="6dp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp">
+
+        </ListView>
+    </ScrollView>
+
+</LinearLayout>
