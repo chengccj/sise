@@ -18,7 +18,7 @@
       <file name="M:/Andorid/toolbar/app/src/main/res/layout/activity_tool_bar.xml" timestamp="1557505864752">
         <mark key="[" line="10" column="47" />
       </file>
-      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/utils/Constants.java" timestamp="1557594194626">
+      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/utils/Constants.java" timestamp="1557594479871">
         <mark key="[" line="8" column="63" />
       </file>
       <file name="M:/Android_flutter/flutter_app/classdesign/app/src/main/res/values/strings.xml" timestamp="1557218917001">
@@ -32,8 +32,11 @@
         <mark key="]" line="2" column="3" />
         <mark key="." line="2" column="3" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/login.java" timestamp="1557593246026">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/login.java" timestamp="1557594671027">
         <mark key="[" line="2" column="18" />
+        <mark key="]" line="48" column="7" />
+        <mark key="^" line="48" column="7" />
+        <mark key="." line="48" column="7" />
       </file>
       <file name="$USER_HOME$/Desktop/WeChat/build.gradle" timestamp="1557275370735">
         <mark key="[" line="11" column="55" />
@@ -123,7 +126,7 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/LoginActivity.java" timestamp="1557594177561">
+      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/LoginActivity.java" timestamp="1557594521685">
         <mark key="[" line="101" column="37" />
       </file>
       <file name="M:/Andorid/wechat_ui/app/src/main/res/layout/activity_main.xml" timestamp="1557545770272" />
@@ -146,6 +149,12 @@
       </file>
       <file name="M:/Andorid/toolbar/app/src/main/res/layout/activity_main.xml" timestamp="1557592175456">
         <mark key="^" line="15" column="48" />
+      </file>
+      <file name="M:/Andorid/toolbar/wecha/build.gradle" timestamp="1557555420798">
+        <mark key="[" line="8" column="23" />
+        <mark key="]" line="22" column="3" />
+        <mark key="^" line="22" column="3" />
+        <mark key="." line="22" column="3" />
       </file>
       <file name="$USER_HOME$/Desktop/Side-Menu.Android-master/app/src/main/res/menu/menu_main.xml" timestamp="1557496898751">
         <mark key="[" line="7" column="36" />
