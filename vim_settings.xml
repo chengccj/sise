@@ -86,7 +86,7 @@
       <file name="M:/Andorid/框架/Side-Menu.Android-master/app/build.gradle" timestamp="1555927497174">
         <mark key="[" line="11" column="23" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1557650276636">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1557652322823">
         <mark key="[" line="44" column="2" />
         <mark key="]" line="44" column="2" />
         <mark key="." line="44" column="2" />
@@ -122,6 +122,11 @@
       </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/net/NetTask.java" timestamp="1555749561722">
         <mark key="[" line="2" column="12" />
+      </file>
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/MyCookieJar.java" timestamp="1557652402876">
+        <mark key="[" line="15" column="31" />
+        <mark key="]" line="15" column="31" />
+        <mark key="." line="15" column="31" />
       </file>
       <file name="M:/Andorid/toolbar/app/src/main/AndroidManifest.xml" timestamp="1557548435020">
         <mark key="[" line="2" column="35" />
@@ -256,7 +261,7 @@
       <file name="/fragment.java" timestamp="1557644537835">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1557648095151">
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1557652407699">
         <mark key="[" line="64" column="54" />
         <mark key="]" line="76" column="0" />
         <mark key="." line="76" column="0" />
@@ -282,7 +287,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICBwdWJsaWMgT2tIdHRwVXRpbCAgZ2V0bWh0dHAoKXsKICAgICAgICByZXR1cm4gbU9rSHR0cENsaWVudDsKICAgIH0=</text>
+        <text encoding="base64">CiAgICAgICAgY29va2llcy5hZGQoY29va2llcyk7</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IE9rSHR0cFV0aWwuUmVxdWVzdERhdGEgcmVxdWVzdEhlYWRlcnNNYXA7</text>
@@ -296,21 +301,27 @@ TextInputLayout passwd = (TextInputLayout)findViewById(R.id.passwd
 TextInputLayout email = (TextInputLayout)findViewById(R.id.email);</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICBwdWJsaWMgT2tIdHRwVXRpbCAgZ2V0bWh0dHAoKXsKICAgICAgICByZXR1cm4gbU9rSHR0cENsaWVudDsKICAgIH0=</text>
+        <text encoding="base64">CiAgICAgICAgY29va2llcy5hZGQoY29va2llcyk7</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">dHJ5IHsKICAgICAgICAgICAgUmVzcG9uc2UgcmVzcG9uc2UgPSAgT2tIdHRwVXRpbC5wb3N0U3luYygiaHR0cDovL2NsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9M2U3ZDc3ZmVlYzczNGExMTA0MTVmYTBjMzk3OWIzODgiLG51bGwsbnVsbCk7CiAgICAgICAgICAgIFN0cmluZyBzdHIgPSByZXNwb25zZS5ib2R5KCkuc3RyaW5nKCk7CiAgICAgICAgICAgIExvZy5kKCJUYWciLHN0cik7CiAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgIH0=</text>
+        <text encoding="base64">ICBwdWJsaWMgTXlDb29raWVKYXIoKXsKICAgICAgICB0aGlzLmNvb2tpZXMgPSBjb29rCiAgICB9</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICByZXF1ZXN0SGVhZGVyc01hcCA9IG51bGw7CiAgICAgICAgcmVxdWVzdEhlYWRlcnNNYXAucHV0KCJVc2VyLUFnZW50IiwgIk1vemlsbGEvNC4wIChjb21wYXRpYmxlOyBNU0lFIDcuMDsgV2luZG93cyBOVCA2LjE7IFdPVzY0OyBUcmlkZW50LzcuMDsgU0xDQzI7IC5ORVQgQ0xSIDIuMC41MDcyNzsgLk5FVCBDTFIgMy41LjMwNzI5OyAuTkVUIENMUiAzLjAuMzA3Mjk7IC5ORVQ0LjBDOyAuTkVUNC4wRTsgSW5mb1BhdGguMykiKTsKICAgICAgICByZXF1ZXN0SGVhZGVyc01hcC5wdXQoIkhvc3QiLCAiY2xhc3Muc2lzZS5jb20uY246NzAwMSIpOw==</text>
+        <text encoding="base64">ICBwdWJsaWMgT2tIdHRwVXRpbCAgZ2V0bWh0dHAoKXsKICAgICAgICByZXR1cm4gbU9rSHR0cENsaWVudDsKICAgIH0=</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">IGxvZ2luUmVxdWVzdEJvZHlNYXAgPSBuZXcgTGlua2VkSGFzaE1hcDw+KCk7IC8vIGphdmEgMS43IL+qyry/ydLUzai5/dXi1tbQtLeos/XKvLuvvK+6zwogICAgICAgIHNjaGVkdWxlUmVxdWVzdEJvZHlNYXAgPSBuZXcgTGlua2VkSGFzaE1hcDw+KCk7CiAgICAgICAgc2NvcmVSZXF1ZXN0Qm9keU1hcCA9IG5ldyBMaW5rZWRIYXNoTWFwPD4oKTs=</text>
+        <text encoding="base64">dHJ5IHsKICAgICAgICAgICAgUmVzcG9uc2UgcmVzcG9uc2UgPSAgT2tIdHRwVXRpbC5wb3N0U3luYygiaHR0cDovL2NsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9M2U3ZDc3ZmVlYzczNGExMTA0MTVmYTBjMzk3OWIzODgiLG51bGwsbnVsbCk7CiAgICAgICAgICAgIFN0cmluZyBzdHIgPSByZXNwb25zZS5ib2R5KCkuc3RyaW5nKCk7CiAgICAgICAgICAgIExvZy5kKCJUYWciLHN0cik7CiAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgIH0=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">cHVibGljIHZvaWQgcXVlcnlfaW5mbyhWaWV3IHZpZXcpewogICAgICAgIHN0YXJ0QWN0aXZpdHkobmV3IEludGVudChNYWluQWN0aXZpdHkudGhpcyxpbmZvLmNsYXNzKSk7CiAgICB9CiAgICBwdWJsaWMgdm9pZCBxdWVyeV9zY2hlZGx1ZShWaWV3IHZpZXcpewoKICAgIH0KICAgIHB1YmxpYyB2b2lkIHF1ZXJ5X3Njb3JlcyhWaWV3IHZpZXcpewogICAgICAgIHN0YXJ0QWN0aXZpdHkobmV3IEludGVudChNYWluQWN0aXZpdHkudGhpcyxzY29yZXMuY2xhc3MpKTsKCiAgICB9CiAgICBwdWJsaWMgdm9pZCBxdWVyeV9yZXdhcmRzX3B1bmlzaG1lbnRzKFZpZXcgdmlldyl7CgogICAgfQogICAgcHVibGljIHZvaWQgcXVlcnlfY291cnNlaW5mbyhWaWV3IHZpZXcpewoKICAgIH0KICAgIHB1YmxpYyB2b2lkIHF1ZXJ5X3Zpb2xhdGlvbnMoVmlldyB2aWV3KXsKCiAgICB9Cg==</text>
+        <text encoding="base64">ICByZXF1ZXN0SGVhZGVyc01hcCA9IG51bGw7CiAgICAgICAgcmVxdWVzdEhlYWRlcnNNYXAucHV0KCJVc2VyLUFnZW50IiwgIk1vemlsbGEvNC4wIChjb21wYXRpYmxlOyBNU0lFIDcuMDsgV2luZG93cyBOVCA2LjE7IFdPVzY0OyBUcmlkZW50LzcuMDsgU0xDQzI7IC5ORVQgQ0xSIDIuMC41MDcyNzsgLk5FVCBDTFIgMy41LjMwNzI5OyAuTkVUIENMUiAzLjAuMzA3Mjk7IC5ORVQ0LjBDOyAuTkVUNC4wRTsgSW5mb1BhdGguMykiKTsKICAgICAgICByZXF1ZXN0SGVhZGVyc01hcC5wdXQoIkhvc3QiLCAiY2xhc3Muc2lzZS5jb20uY246NzAwMSIpOw==</text>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">IGxvZ2luUmVxdWVzdEJvZHlNYXAgPSBuZXcgTGlua2VkSGFzaE1hcDw+KCk7IC8vIGphdmEgMS43IL+qyry/ydLUzai5/dXi1tbQtLeos/XKvLuvvK+6zwogICAgICAgIHNjaGVkdWxlUmVxdWVzdEJvZHlNYXAgPSBuZXcgTGlua2VkSGFzaE1hcDw+KCk7CiAgICAgICAgc2NvcmVSZXF1ZXN0Qm9keU1hcCA9IG5ldyBMaW5rZWRIYXNoTWFwPD4oKTs=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">cHVibGljIHZvaWQgcXVlcnlfaW5mbyhWaWV3IHZpZXcpewogICAgICAgIHN0YXJ0QWN0aXZpdHkobmV3IEludGVudChNYWluQWN0aXZpdHkudGhpcyxpbmZvLmNsYXNzKSk7CiAgICB9CiAgICBwdWJsaWMgdm9pZCBxdWVyeV9zY2hlZGx1ZShWaWV3IHZpZXcpewoKICAgIH0KICAgIHB1YmxpYyB2b2lkIHF1ZXJ5X3Njb3JlcyhWaWV3IHZpZXcpewogICAgICAgIHN0YXJ0QWN0aXZpdHkobmV3IEludGVudChNYWluQWN0aXZpdHkudGhpcyxzY29yZXMuY2xhc3MpKTsKCiAgICB9CiAgICBwdWJsaWMgdm9pZCBxdWVyeV9yZXdhcmRzX3B1bmlzaG1lbnRzKFZpZXcgdmlldyl7CgogICAgfQogICAgcHVibGljIHZvaWQgcXVlcnlfY291cnNlaW5mbyhWaWV3IHZpZXcpewoKICAgIH0KICAgIHB1YmxpYyB2b2lkIHF1ZXJ5X3Zpb2xhdGlvbnMoVmlldyB2aWV3KXsKCiAgICB9Cg==</text>
+      </register>
+      <register name="8" type="4">
         <text>public void login(View view){
         startActivity(new Intent(MainActivity.this,login.class));
     }
@@ -334,14 +345,8 @@ TextInputLayout email = (TextInputLayout)findViewById(R.id.email);</text>
 
     }</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICBjb3Vyc2VpbmZvLnNldE9uQ2xpY2tMaXN0ZW5lcihuZXcgVmlldy5PbkNsaWNrTGlzdGVuZXIoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBvbkNsaWNrKFZpZXcgdmlldykgewogICAgICAgICAgICAgICAgc3RhcnRBY3Rpdml0eShuZXcgSW50ZW50KE1haW5BY3Rpdml0eS50aGlzLENvdXJzZWluZm8uY2xhc3MpKTsKICAgICAgICAgICAgfQogICAgICAgIH0pOw==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">PFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvdHdvIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJAc3RyaW5nL3R1ZXMiIC8+</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">PExpbmVhckxheW91dAogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0iaG9yaXpvbnRhbCI+CiAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvbW9uIgogICAgICAgICAgICBhbmRyb2lkOnRleHQ9ItDHxtrSuyIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiIC8+CiAgICA8L0xpbmVhckxheW91dD4=</text>
+        <text encoding="base64">ICBjb3Vyc2VpbmZvLnNldE9uQ2xpY2tMaXN0ZW5lcihuZXcgVmlldy5PbkNsaWNrTGlzdGVuZXIoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBvbkNsaWNrKFZpZXcgdmlldykgewogICAgICAgICAgICAgICAgc3RhcnRBY3Rpdml0eShuZXcgSW50ZW50KE1haW5BY3Rpdml0eS50aGlzLENvdXJzZWluZm8uY2xhc3MpKTsKICAgICAgICAgICAgfQogICAgICAgIH0pOw==</text>
       </register>
     </registers>
     <search>
