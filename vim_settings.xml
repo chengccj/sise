@@ -103,6 +103,11 @@
       <file name="$USER_HOME$/Desktop/Side-Menu.Android-master/app/src/main/res/layout/fragment_main.xml" timestamp="1557496881309">
         <mark key="[" line="14" column="48" />
       </file>
+      <file name="M:/Andorid/sise/app/src/main/AndroidManifest.xml" timestamp="1557632480504">
+        <mark key="[" line="24" column="29" />
+        <mark key="]" line="7" column="42" />
+        <mark key="." line="7" column="42" />
+      </file>
       <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/LoginActivity.java" timestamp="1557631857036">
         <mark key="[" line="101" column="37" />
       </file>
@@ -117,9 +122,6 @@
       </file>
       <file name="M:/Andorid/WeChat/app/src/main/res/values/colors.xml" timestamp="1557301566100">
         <mark key="[" line="6" column="43" />
-      </file>
-      <file name="M:/Andorid/toolbar/app/src/main/res/layout/activity_main.xml" timestamp="1557595206255">
-        <mark key="^" line="15" column="48" />
       </file>
       <file name="$USER_HOME$/Desktop/Side-Menu.Android-master/app/src/main/res/menu/menu_main.xml" timestamp="1557496898751">
         <mark key="[" line="7" column="36" />
@@ -142,7 +144,7 @@
       <file name="M:/Andorid/Andorid_two/build.gradle" timestamp="1555729297055">
         <mark key="[" line="8" column="18" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Courseinfo.java" timestamp="1557631713945">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Courseinfo.java" timestamp="1557632949735">
         <mark key="[" line="26" column="8" />
         <mark key="]" line="26" column="9" />
         <mark key="^" line="26" column="9" />
@@ -170,9 +172,9 @@
       <file name="M:/Andorid/remusic-master/build.gradle" timestamp="1556029965989">
         <mark key="[" line="7" column="51" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" timestamp="1557630723178">
+      <file name="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" timestamp="1557632280772">
         <mark key="'" line="1" column="1" />
-        <mark key="[" line="50" column="48" />
+        <mark key="[" line="109" column="40" />
         <mark key="]" line="50" column="48" />
         <mark key="^" line="22" column="57" />
         <mark key="." line="50" column="48" />
@@ -180,8 +182,8 @@
       <file name="M:/Andorid/sise/app/src/main/res/values/colors.xml" timestamp="1557498063518">
         <mark key="[" line="4" column="45" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1557630633660">
-        <mark key="[" line="22" column="5" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1557632742164">
+        <mark key="[" line="31" column="5" />
       </file>
       <file name="M:/Andorid/WeChat/app/src/main/java/com/example/wechat/MessageEvent.java" timestamp="1556174078770">
         <mark key="[" line="2" column="27" />
