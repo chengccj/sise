@@ -77,10 +77,10 @@
       <file name="M:/Andorid/框架/Side-Menu.Android-master/app/build.gradle" timestamp="1555927497174">
         <mark key="[" line="11" column="23" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1557625914179">
-        <mark key="[" line="176" column="45" />
-        <mark key="]" line="219" column="4" />
-        <mark key="." line="219" column="4" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1557637314863">
+        <mark key="[" line="176" column="46" />
+        <mark key="]" line="176" column="46" />
+        <mark key="." line="176" column="46" />
       </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/model/IpInfo.java" timestamp="1555743820998">
         <mark key="[" line="2" column="21" />
@@ -108,7 +108,7 @@
         <mark key="]" line="7" column="42" />
         <mark key="." line="7" column="42" />
       </file>
-      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/LoginActivity.java" timestamp="1557631857036">
+      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/LoginActivity.java" timestamp="1557637425484">
         <mark key="[" line="101" column="37" />
       </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/net/NetTask.java" timestamp="1555749561722">
@@ -144,7 +144,7 @@
       <file name="M:/Andorid/Andorid_two/build.gradle" timestamp="1555729297055">
         <mark key="[" line="8" column="18" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Courseinfo.java" timestamp="1557632949735">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Courseinfo.java" timestamp="1557637296548">
         <mark key="[" line="26" column="8" />
         <mark key="]" line="26" column="9" />
         <mark key="^" line="26" column="9" />
@@ -269,7 +269,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHByaXZhdGUgSnNvdXBVdGlsKCkgewogICAgICAgIHRpbWUgPSBuZXcgU3RyaW5nW10geyAi1tzSuyIsICLW3Lb+IiwgItbcyP0iLCAi1tzLxCIsICLW3M7lIiwgItbcwfkiLCAi1tzI1SIgfTsKICAgIH0=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgbU9rSHR0cENsaWVudCA9IG51bGw7CiAgICAgICAgICAgICAgICAgICAgbU9rSHR0cENsaWVudEJ1aWxkZXIgPSBudWxsOw==</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -283,39 +283,32 @@ TextInputLayout passwd = (TextInputLayout)findViewById(R.id.passwd
 TextInputLayout email = (TextInputLayout)findViewById(R.id.email);</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">IHByaXZhdGUgSnNvdXBVdGlsKCkgewogICAgICAgIHRpbWUgPSBuZXcgU3RyaW5nW10geyAi1tzSuyIsICLW3Lb+IiwgItbcyP0iLCAi1tzLxCIsICLW3M7lIiwgItbcwfkiLCAi1tzI1SIgfTsKICAgIH0=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgbU9rSHR0cENsaWVudCA9IG51bGw7CiAgICAgICAgICAgICAgICAgICAgbU9rSHR0cENsaWVudEJ1aWxkZXIgPSBudWxsOw==</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">IHByaXZhdGUgSnNvdXBVdGlsKCkgewogICAgICAgIHRpbWUgPSBuZXcgU3RyaW5nW10geyAi1tzSuyIsICLW3Lb+IiwgItbcyP0iLCAi1tzLxCIsICLW3M7lIiwgItbcwfkiLCAi1tzI1SIgfTsKICAgIH0=</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">CiAgICAgICAgICAgICAgICBTdHJpbmcgc3RyID0gcmVzcG9uc2UudG9TdHJpbmcoKTs=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Ly5pZGVhL2xpYnJhcmllcwo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>//        RequestBody body = new FormBody().Builder().build();
         Request request = new Request().Builder().url()</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">cHVibGljIHN0YXRpYyBSZXNwb25zZSBnZXRTeW5jKFN0cmluZyB1cmwpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgcmV0dXJuIGdldEluc3RhbmNlKCkuX2dldFN5bmModXJsKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBnZXRTeW5jU3RyaW5nKFN0cmluZyB1cmwpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgcmV0dXJuIGdldEluc3RhbmNlKCkuX2dldFN5bmNTdHJpbmcodXJsKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgZ2V0QXN5bmMoU3RyaW5nIHVybCwgUmVzdWx0Q2FsbGJhY2sgY2FsbGJhY2spIHsKICAgICAgICBnZXRJbnN0YW5jZSgpLl9nZXRBc3luYyh1cmwsIGNhbGxiYWNrKTsKICAgIH0K</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAvKioKICAgICAqIM2ssr21xEdldMfrx/MsILe1u9hSZXNwb25zZbbUz/MKICAgICAqLwogICAgcHJpdmF0ZSBSZXNwb25zZSBfZ2V0U3luYyhTdHJpbmcgdXJsKSB0aHJvd3MgSU9FeGNlcHRpb24gewogICAgICAgIGZpbmFsIFJlcXVlc3QgcmVxdWVzdCA9IG5ldyBSZXF1ZXN0LkJ1aWxkZXIoKS51cmwodXJsKS5idWlsZCgpOwogICAgICAgIENhbGwgY2FsbCA9IG1Pa0h0dHBDbGllbnQubmV3Q2FsbChyZXF1ZXN0KTsKICAgICAgICBSZXNwb25zZSByZXNwb25zZSA9IGNhbGwuZXhlY3V0ZSgpOwogICAgICAgIHJldHVybiByZXNwb25zZTsKICAgIH0KCiAgICAvKioKICAgICAqIM2ssr21xEdldMfrx/MsILe1u9hzdHJpbmcKICAgICAqLwogICAgcHJpdmF0ZSBTdHJpbmcgX2dldFN5bmNTdHJpbmcoU3RyaW5nIHVybCkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICBSZXNwb25zZSByZXNwb25zZSA9IF9nZXRTeW5jKHVybCk7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlLmJvZHkoKS5zdHJpbmcoKTsKICAgIH0KCiAgICAvKioKICAgICAqINLssr21xEdldMfrx/MKICAgICAqLwogICAgcHJpdmF0ZSB2b2lkIF9nZXRBc3luYyhTdHJpbmcgdXJsLCBmaW5hbCBSZXN1bHRDYWxsYmFjayBjYWxsYmFjaykgewogICAgICAgIGZpbmFsIFJlcXVlc3QgcmVxdWVzdCA9IG5ldyBSZXF1ZXN0LkJ1aWxkZXIoKS51cmwodXJsKS5idWlsZCgpOwogICAgICAgIGRlbGl2ZXJ5UmVzdWx0KGNhbGxiYWNrLCByZXF1ZXN0KTsKICAgIH0=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIExpc3Q8Q29va2llPjsK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiCiAgICB4c2k6c2NoZW1hTG9jYXRpb249Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCAiPg==</text>
-      </register>
       <register name="9" type="4">
-        <text>buildscript{
-    repositories{
-        jcenter()
-    }
-
-    dependencies{
-        classpath &quot;com.android.tools.build:gradle:2.3.3&quot;
-    }</text>
+        <text encoding="base64">IHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiCiAgICB4c2k6c2NoZW1hTG9jYXRpb249Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCAiPg==</text>
       </register>
     </registers>
     <search>
