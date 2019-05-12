@@ -32,11 +32,11 @@
       <file name="M:/Andorid/wechat_ui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" timestamp="1557498182450">
         <mark key="[" line="1992" column="53" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/login.java" timestamp="1557654430819">
-        <mark key="[" line="100" column="15" />
-        <mark key="]" line="100" column="15" />
-        <mark key="^" line="118" column="7" />
-        <mark key="." line="100" column="15" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/login.java" timestamp="1557660928664">
+        <mark key="[" line="76" column="25" />
+        <mark key="]" line="76" column="25" />
+        <mark key="^" line="117" column="7" />
+        <mark key="." line="76" column="25" />
       </file>
       <file name="$USER_HOME$/Desktop/WeChat/build.gradle" timestamp="1557275370735">
         <mark key="[" line="11" column="55" />
@@ -123,10 +123,11 @@
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/net/NetTask.java" timestamp="1555749561722">
         <mark key="[" line="2" column="12" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/MyCookieJar.java" timestamp="1557652402876">
-        <mark key="[" line="15" column="31" />
-        <mark key="]" line="15" column="31" />
-        <mark key="." line="15" column="31" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/MyCookieJar.java" timestamp="1557661232292">
+        <mark key="[" line="16" column="69" />
+        <mark key="]" line="17" column="17" />
+        <mark key="^" line="17" column="17" />
+        <mark key="." line="17" column="17" />
       </file>
       <file name="M:/Andorid/toolbar/app/src/main/AndroidManifest.xml" timestamp="1557548435020">
         <mark key="[" line="2" column="35" />
@@ -287,10 +288,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIFRleHRWaWV3IHRleHQgPSAoVGV4dFZpZXcpZmluZFZpZXdCeUlkKFIuaWQudGV4dDIpOw==</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text>Request request =new Request.Builder().url(url).addHeader(&quot;cookie&quot;,sessionid).build();</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>show</text>
@@ -301,31 +302,31 @@ TextInputLayout passwd = (TextInputLayout)findViewById(R.id.passwd
 TextInputLayout email = (TextInputLayout)findViewById(R.id.email);</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIFRleHRWaWV3IHRleHQgPSAoVGV4dFZpZXcpZmluZFZpZXdCeUlkKFIuaWQudGV4dDIpOw==</text>
+        <text encoding="base64">CiAgICBwcml2YXRlIE1hcDxTdHJpbmcsIExpc3Q8Q29va2llPj4gY29va2llU3RvcmUgPSBuZXcgSGFzaE1hcDw+KCk7</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">INf31d+jumthZmNhCiAgICAgICAgICAgICAgICDBtL3To7podHRwczovL3d3dy5qaWFuc2h1LmNvbS9wLzVlMWY3OWM0NTBmZgogICAgICAgICAgICAgICAgwLTUtKO6vPLK6QogICAgICAgICAgICAgICAgvPLK6db41/fIqLnp1/fV38v509CjrMjOus7Qzsq9tcTXqtTYtrzH68Gqz7XX99Xfu/G1w8rayKiyoteiw/ez9rSmoaM=</text>
+        <text encoding="base64">CiAgICBwcml2YXRlIE1hcDxTdHJpbmcsIExpc3Q8Q29va2llPj4gY29va2llU3RvcmUgPSBuZXcgSGFzaE1hcDw+KCk7</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">CiAgICAgICAgY29va2llcy5hZGQoY29va2llcyk7</text>
+        <text encoding="base64">CiAgICAgICAgcmVxdWVzdC5oZWFkZXIoImNvb2tpZSIsY29va2llaGVhZCkuYnVpbGQo</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ICBwdWJsaWMgTXlDb29raWVKYXIoKXsKICAgICAgICB0aGlzLmNvb2tpZXMgPSBjb29rCiAgICB9</text>
+        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIFRleHRWaWV3IHRleHQgPSAoVGV4dFZpZXcpZmluZFZpZXdCeUlkKFIuaWQudGV4dDIpOw==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ICBwdWJsaWMgT2tIdHRwVXRpbCAgZ2V0bWh0dHAoKXsKICAgICAgICByZXR1cm4gbU9rSHR0cENsaWVudDsKICAgIH0=</text>
+        <text encoding="base64">INf31d+jumthZmNhCiAgICAgICAgICAgICAgICDBtL3To7podHRwczovL3d3dy5qaWFuc2h1LmNvbS9wLzVlMWY3OWM0NTBmZgogICAgICAgICAgICAgICAgwLTUtKO6vPLK6QogICAgICAgICAgICAgICAgvPLK6db41/fIqLnp1/fV38v509CjrMjOus7Qzsq9tcTXqtTYtrzH68Gqz7XX99Xfu/G1w8rayKiyoteiw/ez9rSmoaM=</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">dHJ5IHsKICAgICAgICAgICAgUmVzcG9uc2UgcmVzcG9uc2UgPSAgT2tIdHRwVXRpbC5wb3N0U3luYygiaHR0cDovL2NsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9M2U3ZDc3ZmVlYzczNGExMTA0MTVmYTBjMzk3OWIzODgiLG51bGwsbnVsbCk7CiAgICAgICAgICAgIFN0cmluZyBzdHIgPSByZXNwb25zZS5ib2R5KCkuc3RyaW5nKCk7CiAgICAgICAgICAgIExvZy5kKCJUYWciLHN0cik7CiAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgIH0=</text>
+        <text encoding="base64">CiAgICAgICAgY29va2llcy5hZGQoY29va2llcyk7</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ICByZXF1ZXN0SGVhZGVyc01hcCA9IG51bGw7CiAgICAgICAgcmVxdWVzdEhlYWRlcnNNYXAucHV0KCJVc2VyLUFnZW50IiwgIk1vemlsbGEvNC4wIChjb21wYXRpYmxlOyBNU0lFIDcuMDsgV2luZG93cyBOVCA2LjE7IFdPVzY0OyBUcmlkZW50LzcuMDsgU0xDQzI7IC5ORVQgQ0xSIDIuMC41MDcyNzsgLk5FVCBDTFIgMy41LjMwNzI5OyAuTkVUIENMUiAzLjAuMzA3Mjk7IC5ORVQ0LjBDOyAuTkVUNC4wRTsgSW5mb1BhdGguMykiKTsKICAgICAgICByZXF1ZXN0SGVhZGVyc01hcC5wdXQoIkhvc3QiLCAiY2xhc3Muc2lzZS5jb20uY246NzAwMSIpOw==</text>
+        <text encoding="base64">ICBwdWJsaWMgTXlDb29raWVKYXIoKXsKICAgICAgICB0aGlzLmNvb2tpZXMgPSBjb29rCiAgICB9</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IGxvZ2luUmVxdWVzdEJvZHlNYXAgPSBuZXcgTGlua2VkSGFzaE1hcDw+KCk7IC8vIGphdmEgMS43IL+qyry/ydLUzai5/dXi1tbQtLeos/XKvLuvvK+6zwogICAgICAgIHNjaGVkdWxlUmVxdWVzdEJvZHlNYXAgPSBuZXcgTGlua2VkSGFzaE1hcDw+KCk7CiAgICAgICAgc2NvcmVSZXF1ZXN0Qm9keU1hcCA9IG5ldyBMaW5rZWRIYXNoTWFwPD4oKTs=</text>
+        <text encoding="base64">ICBwdWJsaWMgT2tIdHRwVXRpbCAgZ2V0bWh0dHAoKXsKICAgICAgICByZXR1cm4gbU9rSHR0cENsaWVudDsKICAgIH0=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">cHVibGljIHZvaWQgcXVlcnlfaW5mbyhWaWV3IHZpZXcpewogICAgICAgIHN0YXJ0QWN0aXZpdHkobmV3IEludGVudChNYWluQWN0aXZpdHkudGhpcyxpbmZvLmNsYXNzKSk7CiAgICB9CiAgICBwdWJsaWMgdm9pZCBxdWVyeV9zY2hlZGx1ZShWaWV3IHZpZXcpewoKICAgIH0KICAgIHB1YmxpYyB2b2lkIHF1ZXJ5X3Njb3JlcyhWaWV3IHZpZXcpewogICAgICAgIHN0YXJ0QWN0aXZpdHkobmV3IEludGVudChNYWluQWN0aXZpdHkudGhpcyxzY29yZXMuY2xhc3MpKTsKCiAgICB9CiAgICBwdWJsaWMgdm9pZCBxdWVyeV9yZXdhcmRzX3B1bmlzaG1lbnRzKFZpZXcgdmlldyl7CgogICAgfQogICAgcHVibGljIHZvaWQgcXVlcnlfY291cnNlaW5mbyhWaWV3IHZpZXcpewoKICAgIH0KICAgIHB1YmxpYyB2b2lkIHF1ZXJ5X3Zpb2xhdGlvbnMoVmlldyB2aWV3KXsKCiAgICB9Cg==</text>
+        <text encoding="base64">dHJ5IHsKICAgICAgICAgICAgUmVzcG9uc2UgcmVzcG9uc2UgPSAgT2tIdHRwVXRpbC5wb3N0U3luYygiaHR0cDovL2NsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9M2U3ZDc3ZmVlYzczNGExMTA0MTVmYTBjMzk3OWIzODgiLG51bGwsbnVsbCk7CiAgICAgICAgICAgIFN0cmluZyBzdHIgPSByZXNwb25zZS5ib2R5KCkuc3RyaW5nKCk7CiAgICAgICAgICAgIExvZy5kKCJUYWciLHN0cik7CiAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgIH0=</text>
       </register>
     </registers>
     <search>
