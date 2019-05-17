@@ -6,4 +6,8 @@
   <action id="ShowColorPicker">
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
 </keymap>

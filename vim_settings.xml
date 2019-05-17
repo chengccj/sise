@@ -12,6 +12,9 @@
       <file name="M:/Andorid/WeChat/app/src/main/res/layout/activity_main.xml" timestamp="1557494566955">
         <mark key="[" line="15" column="39" />
       </file>
+      <file name="/a.dummy" timestamp="1558103742468">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="M:/Andorid/wechat_ui/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" timestamp="1557498182450">
         <mark key="[" line="1992" column="53" />
       </file>
@@ -29,13 +32,7 @@
       <file name="M:/Andorid/WeChat/app/src/main/java/com/example/wechat/fragment/ContentFragment.java" timestamp="1556249866159">
         <mark key="[" line="10" column="36" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/JsoupUtil.java" timestamp="1557804772916">
-        <mark key="'" line="51" column="32" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
-        <mark key="^" line="43" column="67" />
-      </file>
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/JsoupUtil.java" timestamp="1558103842675" />
       <file name="M:/Andorid/WeChat/app/build.gradle" timestamp="1557548002090">
         <mark key="[" line="34" column="64" />
         <mark key="]" line="34" column="64" />
@@ -68,18 +65,18 @@
       <file name="$USER_HOME$/Desktop/android-architecture-todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailActivity.java" timestamp="1555823302940">
         <mark key="[" line="47" column="42" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1557669498681">
-        <mark key="[" line="44" column="2" />
-        <mark key="]" line="44" column="2" />
-        <mark key="." line="44" column="2" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1558104342135">
+        <mark key="[" line="47" column="2" />
+        <mark key="]" line="47" column="2" />
+        <mark key="." line="47" column="2" />
       </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/model/IpInfo.java" timestamp="1555743820998">
         <mark key="[" line="2" column="21" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/OkHttpUtil.java" timestamp="1558101132575">
-        <mark key="[" line="103" column="11" />
-        <mark key="]" line="103" column="11" />
-        <mark key="." line="103" column="11" />
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/OkHttpUtil.java" timestamp="1558104375549">
+        <mark key="[" line="146" column="5" />
+        <mark key="]" line="146" column="5" />
+        <mark key="." line="146" column="5" />
       </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/ipinfo/IpInfoFragment.java" timestamp="1555813153942">
         <mark key="[" line="37" column="32" />
@@ -131,10 +128,10 @@
       <file name="M:/Andorid/remusic-master/build.gradle" timestamp="1556029965989">
         <mark key="[" line="7" column="51" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1557804178814">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="61" column="4" />
-        <mark key="." line="61" column="4" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558103980321">
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
       </file>
       <file name="M:/Andorid/sise/app/.gitignore" timestamp="1557591408854">
         <mark key="[" line="3" column="19" />
@@ -210,6 +207,9 @@
         <mark key="]" line="47" column="1" />
         <mark key="." line="47" column="1" />
       </file>
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkhttpUtil.java" timestamp="1558103680045">
+        <mark key="[" line="2" column="25" />
+      </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/build.gradle" timestamp="1555740749657">
         <mark key="[" line="9" column="56" />
       </file>
@@ -266,7 +266,7 @@
       <file name="M:/Andorid/WeChat/app/src/main/res/values/colors.xml" timestamp="1557301566100">
         <mark key="[" line="6" column="43" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/Jsouputil.java" timestamp="1558100282134">
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/Jsouputil.java" timestamp="1558103831466">
         <mark key="[" line="2" column="24" />
       </file>
       <file name="$USER_HOME$/Desktop/Side-Menu.Android-master/app/src/main/res/menu/menu_main.xml" timestamp="1557496898751">
@@ -337,7 +337,7 @@
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/ipinfo/IpInfoContract.java" timestamp="1555749408980">
         <mark key="[" line="2" column="33" />
       </file>
-      <file name="/fragment.java" timestamp="1558099029235">
+      <file name="/fragment.java" timestamp="1558103719937">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -363,10 +363,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICBMb2cuZCgibGlzdCIsZS5nZXRNZXNzYWdlKCkpOwogICAgICAgICAgICB9</text>
+        <text encoding="base64">KiA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgICAvL7TmtKK1vUNvb2tpZbncwO3G99bQ</text>
+        <text encoding="base64">KiA=</text>
       </register>
       <register name="/" type="4">
         <text>show</text>
@@ -374,22 +374,25 @@
       <register name="0" type="4">
         <text encoding="base64">IExpc3Q8U3RyaW5nPiBjb3Vyc2VMaXN0ID0gSnNvdXBVdGlsLmdldGluZm9MaXN0KHJlc3VsdCk7CiAgICAgICAgICAgICAgICBpZiAobnVsbCAhPSBjb3Vyc2VMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICK78cihuPbIy9DFz6KzybmmISI7Ci8vICAgICAgICAgICAgICAgICAgICBTY2hlZHVsZUFjdGl2aXR5LmFjdGlvblN0YXJ0KGNvbnRleHQsIGNvdXJzZUxpc3QpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gIrvxyKG49sjL0MXPosqnsNwsx+vW2MrUISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTs=</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICAgICBMb2cuZCgibGlzdCIsZS5nZXRNZXNzYWdlKCkpOwogICAgICAgICAgICB9</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvZ2luLnNlYXJjaFNjaGVkdWxlT3BlcmF0aW9uKE1haW5BY3Rpdml0eS50aGlzKTsK</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIGJ5dGVbXSBieXRlcyA9IHNlYXJjaFJlc3BvbnNlLmJvZHkoKS5ieXRlcygpOwovLyAgICAgICAgICAgICAgICBTdHJpbmcgcmVzdWx0ID0gbmV3IFN0cmluZyhieXRlcywiZ2IyMzEyIik7</text>
+        <text encoding="base64">ICAgICBMb2cuZCgibGlzdCIsZS5nZXRNZXNzYWdlKCkpOwogICAgICAgICAgICB9</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAgSGVhZGVycyBoZWFkZXJzID0gc2VhcmNoUmVzcG9uc2UuaGVhZGVycygpOwogICAgICAgICAgICBIdHRwVXJsIHVsciA9IHNlYXJjaFJlcXVlc3QudXJsKCk7CiAgICAgICAgICAgIExpc3Q8Q29va2llPiBjb29raWUgPSBDb29raWUucGFyc2VBbGwodWxyLGhlYWRlcnMpOw==</text>
+        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIGJ5dGVbXSBieXRlcyA9IHNlYXJjaFJlc3BvbnNlLmJvZHkoKS5ieXRlcygpOwovLyAgICAgICAgICAgICAgICBTdHJpbmcgcmVzdWx0ID0gbmV3IFN0cmluZyhieXRlcywiZ2IyMzEyIik7</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ICAgcHVibGljIHZvaWQgaW5pdCgpewoKICAgIH0=</text>
+        <text encoding="base64">ICAgSGVhZGVycyBoZWFkZXJzID0gc2VhcmNoUmVzcG9uc2UuaGVhZGVycygpOwogICAgICAgICAgICBIdHRwVXJsIHVsciA9IHNlYXJjaFJlcXVlc3QudXJsKCk7CiAgICAgICAgICAgIExpc3Q8Q29va2llPiBjb29raWUgPSBDb29raWUucGFyc2VBbGwodWxyLGhlYWRlcnMpOw==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">IE9rSHR0cFV0aWwucG9zdEFzeW5jKCJodHRwOi8vY2xhc3Muc2lzZS5jb20uY246NzAwMS9zaXNlL2xvZ2luX2NoZWNrX2xvZ2luLmpzcCIsIG5ldyBPa0h0dHBVdGlsLlJlc3VsdENhbGxiYWNrKCkgewogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25FcnJvcihDYWxsIGNhbGwsIEV4Y2VwdGlvbiBlKSB7CgogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25SZXNwb25zZShieXRlW10gcmVzcG9uc2UpIHsKICAgICAgICAgICAgICAgIFN0cmluZyBzdHIgPSByZXNwb25zZS50b1N0cmluZygpOwogICAgICAgICAgICAgICAgTG9nLmQoInRhZyIsc3RyKTsKICAgICAgICAgICAgfQogICAgICAgIH0sIGxvZ2luUmVxdWVzdEJvZHlNYXAscmVxdWVzdEhlYWRlcnNNYXApOw==</text>
+        <text encoding="base64">ICAgcHVibGljIHZvaWQgaW5pdCgpewoKICAgIH0=</text>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">IE9rSHR0cFV0aWwucG9zdEFzeW5jKCJodHRwOi8vY2xhc3Muc2lzZS5jb20uY246NzAwMS9zaXNlL2xvZ2luX2NoZWNrX2xvZ2luLmpzcCIsIG5ldyBPa0h0dHBVdGlsLlJlc3VsdENhbGxiYWNrKCkgewogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25FcnJvcihDYWxsIGNhbGwsIEV4Y2VwdGlvbiBlKSB7CgogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25SZXNwb25zZShieXRlW10gcmVzcG9uc2UpIHsKICAgICAgICAgICAgICAgIFN0cmluZyBzdHIgPSByZXNwb25zZS50b1N0cmluZygpOwogICAgICAgICAgICAgICAgTG9nLmQoInRhZyIsc3RyKTsKICAgICAgICAgICAgfQogICAgICAgIH0sIGxvZ2luUmVxdWVzdEJvZHlNYXAscmVxdWVzdEhlYWRlcnNNYXApOw==</text>
+      </register>
+      <register name="7" type="4">
         <text>OkHttpUtil.postAsync(&quot;http://class.sise.com.cn:7001/sise/login_check_login.jsp&quot;, new OkHttpUtil.ResultCallback() {
             @Override
             public void onError(Call call, Exception e) {
@@ -403,11 +406,11 @@
             }
         }, loginRequestBodyMap,requestHeadersMap);</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>String sUrl = &quot;http://class.sise.com.cn:7001/sise/module/student_schedular/student_schedular.jsp&quot;;
         HttpUrl searchUrl = (HttpUrl)sUrl;</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>ew Callback() {
             @Override
             public void onFailure(Call call,final IOException e) {
@@ -419,9 +422,6 @@
 
             }
         }</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">CgovLyAgICAgICAgICAgICAgICBIdHRwVXJsIGh0dHBVcmwgPSByZXF1ZXN0LnVybCgpOwovLyAgICAgICAgICAgICAgICBMaXN0PENvb2tpZT4gY29va2llcyA9IENvb2tpZS5wYXJzZUFsbChodHRwVXJsLCBoZWFkZXJzKTs=</text>
       </register>
     </registers>
     <search>
@@ -463,6 +463,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Q</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
