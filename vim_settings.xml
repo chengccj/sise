@@ -94,10 +94,10 @@
       <file name="M:/Andorid/toolbar/app/src/main/AndroidManifest.xml" timestamp="1557548435020">
         <mark key="[" line="2" column="35" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/res/layout/courselist.xml" timestamp="1558145930117">
-        <mark key="[" line="18" column="4" />
-        <mark key="]" line="18" column="4" />
-        <mark key="." line="18" column="4" />
+      <file name="M:/Andorid/toolbar/app/src/main/res/layout/courselist.xml" timestamp="1558149364751">
+        <mark key="[" line="56" column="12" />
+        <mark key="]" line="56" column="12" />
+        <mark key="." line="56" column="12" />
       </file>
       <file name="$USER_HOME$/Desktop/WeChat/redpacketlibrary/AndroidManifest.xml" timestamp="1557277216392">
         <mark key="[" line="4" column="36" />
@@ -116,6 +116,7 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
+      <file name="M:/Andorid/toolbar/webcrawler/src/main/res/layout/activity_schedule.xml" timestamp="1558149322864" />
       <file name="$USER_HOME$/Desktop/WeChat/EaseUI/AndroidManifest.xml" timestamp="1557277475214">
         <mark key="[" line="6" column="42" />
       </file>
@@ -364,10 +365,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">PEdyaWRMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICAKICAgIDwvR3JpZExheW91dD4=</text>
+        <text>android:background=&quot;@drawable/schedule_title_background&quot;</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">KiA=</text>
+        <text>android:background=&quot;@drawable/schedule_title_background&quot;</text>
       </register>
       <register name="/" type="4">
         <text>show</text>
