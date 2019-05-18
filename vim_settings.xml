@@ -32,7 +32,6 @@
       <file name="M:/Andorid/WeChat/app/src/main/java/com/example/wechat/fragment/ContentFragment.java" timestamp="1556249866159">
         <mark key="[" line="10" column="36" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/JsoupUtil.java" timestamp="1558103842675" />
       <file name="M:/Andorid/WeChat/app/build.gradle" timestamp="1557548002090">
         <mark key="[" line="34" column="64" />
         <mark key="]" line="34" column="64" />
@@ -53,7 +52,6 @@
       <file name="$USER_HOME$/Desktop/android-architecture-todo-mvp/todoapp/test_ui/src/main/res/values/strings.xml" timestamp="1555992253068">
         <mark key="[" line="1" column="34" />
       </file>
-      <file name="D:/Android_SDK/platforms/android-28/android.jar!/android/os/NetworkOnMainThreadException.class" timestamp="1558093490825" />
       <file name="M:/Android_flutter/flutter_app/lib/main.dart" timestamp="1556888492317">
         <mark key="[" line="41" column="0" />
       </file>
@@ -73,11 +71,11 @@
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/model/IpInfo.java" timestamp="1555743820998">
         <mark key="[" line="2" column="21" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/OkHttpUtil.java" timestamp="1558111996398">
-        <mark key="[" line="305" column="0" />
-        <mark key="]" line="305" column="0" />
-        <mark key="^" line="309" column="73" />
-        <mark key="." line="305" column="0" />
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/OkHttpUtil.java" timestamp="1558142486139">
+        <mark key="[" line="104" column="25" />
+        <mark key="]" line="306" column="0" />
+        <mark key="^" line="310" column="73" />
+        <mark key="." line="306" column="0" />
       </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/ipinfo/IpInfoFragment.java" timestamp="1555813153942">
         <mark key="[" line="37" column="32" />
@@ -85,7 +83,6 @@
       <file name="M:/Andorid/WeChat/app/src/main/java/com/example/wechat/LoginActivity.java" timestamp="1556179288681">
         <mark key="[" line="9" column="43" />
       </file>
-      <file name="M:/Andorid/sise/app/build.gradle" timestamp="1558099636524" />
       <file name="M:/Andorid/custom_view/app/build.gradle" timestamp="1556001335341">
         <mark key="[" line="20" column="14" />
       </file>
@@ -148,7 +145,6 @@
       <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/mycookiejar.java" timestamp="1558092303869">
         <mark key="[" line="30" column="46" />
       </file>
-      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/utils/JsoupUtil.java" timestamp="1558100072700" />
       <file name="M:/Andorid/sise/app/src/main/res/layout/info.xml" timestamp="1557586433899">
         <mark key="[" line="3" column="41" />
       </file>
@@ -257,7 +253,6 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/LoginActivity.java" timestamp="1558098646932" />
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/net/NetTask.java" timestamp="1555749561722">
         <mark key="[" line="2" column="12" />
       </file>
