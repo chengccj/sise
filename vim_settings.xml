@@ -71,7 +71,7 @@
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/model/IpInfo.java" timestamp="1555743820998">
         <mark key="[" line="2" column="21" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/OkHttpUtil.java" timestamp="1558142486139">
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/OkHttpUtil.java" timestamp="1558143767808">
         <mark key="[" line="104" column="25" />
         <mark key="]" line="306" column="0" />
         <mark key="^" line="310" column="73" />
@@ -93,6 +93,11 @@
       </file>
       <file name="M:/Andorid/toolbar/app/src/main/AndroidManifest.xml" timestamp="1557548435020">
         <mark key="[" line="2" column="35" />
+      </file>
+      <file name="M:/Andorid/toolbar/app/src/main/res/layout/courselist.xml" timestamp="1558145930117">
+        <mark key="[" line="16" column="4" />
+        <mark key="]" line="16" column="4" />
+        <mark key="." line="16" column="4" />
       </file>
       <file name="$USER_HOME$/Desktop/WeChat/redpacketlibrary/AndroidManifest.xml" timestamp="1557277216392">
         <mark key="[" line="4" column="36" />
@@ -162,12 +167,12 @@
       <file name="$USER_HOME$/Desktop/SmackChat-master/SmackChat-master/build.gradle" timestamp="1557935498532">
         <mark key="[" line="7" column="53" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1558111356551">
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1558145057319">
         <mark key="'" line="13" column="17" />
-        <mark key="[" line="64" column="11" />
-        <mark key="]" line="64" column="11" />
-        <mark key="." line="64" column="11" />
-        <mark key="^" line="64" column="11" />
+        <mark key="[" line="158" column="21" />
+        <mark key="]" line="65" column="11" />
+        <mark key="." line="65" column="11" />
+        <mark key="^" line="65" column="11" />
       </file>
       <file name="M:/Andorid/toolbar/webcrawler/build.gradle" timestamp="1558099675504">
         <mark key="[" line="32" column="54" />
@@ -262,7 +267,7 @@
       <file name="M:/Andorid/WeChat/app/src/main/res/values/colors.xml" timestamp="1557301566100">
         <mark key="[" line="6" column="43" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/Jsouputil.java" timestamp="1558103831466">
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/Jsouputil.java" timestamp="1558144591835">
         <mark key="[" line="2" column="24" />
       </file>
       <file name="$USER_HOME$/Desktop/Side-Menu.Android-master/app/src/main/res/menu/menu_main.xml" timestamp="1557496898751">
@@ -359,12 +364,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>//        try {
-//            return getInstance()._postlogin(url,body,headers);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        return false;</text>
+        <text encoding="base64">PEdyaWRMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICAKICAgIDwvR3JpZExheW91dD4=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">KiA=</text>
@@ -376,6 +376,12 @@
         <text encoding="base64">IExpc3Q8U3RyaW5nPiBjb3Vyc2VMaXN0ID0gSnNvdXBVdGlsLmdldGluZm9MaXN0KHJlc3VsdCk7CiAgICAgICAgICAgICAgICBpZiAobnVsbCAhPSBjb3Vyc2VMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICK78cihuPbIy9DFz6KzybmmISI7Ci8vICAgICAgICAgICAgICAgICAgICBTY2hlZHVsZUFjdGl2aXR5LmFjdGlvblN0YXJ0KGNvbnRleHQsIGNvdXJzZUxpc3QpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gIrvxyKG49sjL0MXPosqnsNwsx+vW2MrUISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTs=</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">PEdyaWRMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICAKICAgIDwvR3JpZExheW91dD4=</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">IDxMaW5lYXJMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICAKICAgIDwvTGluZWFyTGF5b3V0Pg==</text>
+      </register>
+      <register name="3" type="4">
         <text>//        try {
 //            return getInstance()._postlogin(url,body,headers);
 //        } catch (IOException e) {
@@ -383,44 +389,27 @@
 //        }
 //        return false;</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>try {
             getInstance()._postlogin(url,body,headers);
         } catch (IOException e) {
             e.printStackTrace();
         }</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGxvZ2luLnNlYXJjaFNjaGVkdWxlT3BlcmF0aW9uKE1haW5BY3Rpdml0eS50aGlzKTsK</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICAgICBMb2cuZCgibGlzdCIsZS5nZXRNZXNzYWdlKCkpOwogICAgICAgICAgICB9</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIGJ5dGVbXSBieXRlcyA9IHNlYXJjaFJlc3BvbnNlLmJvZHkoKS5ieXRlcygpOwovLyAgICAgICAgICAgICAgICBTdHJpbmcgcmVzdWx0ID0gbmV3IFN0cmluZyhieXRlcywiZ2IyMzEyIik7</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgSGVhZGVycyBoZWFkZXJzID0gc2VhcmNoUmVzcG9uc2UuaGVhZGVycygpOwogICAgICAgICAgICBIdHRwVXJsIHVsciA9IHNlYXJjaFJlcXVlc3QudXJsKCk7CiAgICAgICAgICAgIExpc3Q8Q29va2llPiBjb29raWUgPSBDb29raWUucGFyc2VBbGwodWxyLGhlYWRlcnMpOw==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgcHVibGljIHZvaWQgaW5pdCgpewoKICAgIH0=</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">IE9rSHR0cFV0aWwucG9zdEFzeW5jKCJodHRwOi8vY2xhc3Muc2lzZS5jb20uY246NzAwMS9zaXNlL2xvZ2luX2NoZWNrX2xvZ2luLmpzcCIsIG5ldyBPa0h0dHBVdGlsLlJlc3VsdENhbGxiYWNrKCkgewogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25FcnJvcihDYWxsIGNhbGwsIEV4Y2VwdGlvbiBlKSB7CgogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25SZXNwb25zZShieXRlW10gcmVzcG9uc2UpIHsKICAgICAgICAgICAgICAgIFN0cmluZyBzdHIgPSByZXNwb25zZS50b1N0cmluZygpOwogICAgICAgICAgICAgICAgTG9nLmQoInRhZyIsc3RyKTsKICAgICAgICAgICAgfQogICAgICAgIH0sIGxvZ2luUmVxdWVzdEJvZHlNYXAscmVxdWVzdEhlYWRlcnNNYXApOw==</text>
-      </register>
       <register name="9" type="4">
-        <text>OkHttpUtil.postAsync(&quot;http://class.sise.com.cn:7001/sise/login_check_login.jsp&quot;, new OkHttpUtil.ResultCallback() {
-            @Override
-            public void onError(Call call, Exception e) {
-
-            }
-
-            @Override
-            public void onResponse(byte[] response) {
-                String str = response.toString();
-                Log.d(&quot;tag&quot;,str);
-            }
-        }, loginRequestBodyMap,requestHeadersMap);</text>
+        <text encoding="base64">ICAgcHVibGljIHZvaWQgaW5pdCgpewoKICAgIH0=</text>
       </register>
     </registers>
     <search>
