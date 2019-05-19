@@ -68,10 +68,10 @@
       <file name="$USER_HOME$/Desktop/android-architecture-todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailActivity.java" timestamp="1555823302940">
         <mark key="[" line="47" column="42" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1558231165934">
-        <mark key="[" line="301" column="87" />
-        <mark key="]" line="48" column="2" />
-        <mark key="." line="48" column="2" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkHttpUtil.java" timestamp="1558236133895">
+        <mark key="[" line="140" column="1" />
+        <mark key="]" line="140" column="1" />
+        <mark key="." line="140" column="1" />
       </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/model/IpInfo.java" timestamp="1555743820998">
         <mark key="[" line="2" column="21" />
@@ -136,7 +136,7 @@
       <file name="M:/Andorid/remusic-master/build.gradle" timestamp="1556029965989">
         <mark key="[" line="7" column="51" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558232145749">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558235735593">
         <mark key="[" line="56" column="31" />
         <mark key="]" line="46" column="0" />
         <mark key="." line="46" column="0" />
@@ -176,6 +176,12 @@
       </file>
       <file name="$USER_HOME$/Desktop/SmackChat-master/SmackChat-master/build.gradle" timestamp="1557935498532">
         <mark key="[" line="7" column="53" />
+      </file>
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558236693954">
+        <mark key="'" line="38" column="25" />
+        <mark key="[" line="24" column="33" />
+        <mark key="]" line="24" column="33" />
+        <mark key="." line="24" column="33" />
       </file>
       <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1558150450708">
         <mark key="'" line="13" column="17" />
@@ -259,7 +265,7 @@
       <file name="M:/Andorid/WeChat/app/src/main/java/com/example/wechat/register.java" timestamp="1556020252441">
         <mark key="[" line="2" column="23" />
       </file>
-      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/utils/OkHttpUtil.java" timestamp="1558111952918">
+      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/utils/OkHttpUtil.java" timestamp="1558236203391">
         <mark key="[" line="184" column="89" />
         <mark key="]" line="184" column="89" />
         <mark key="." line="184" column="89" />
@@ -273,6 +279,9 @@
         <mark key="." line="1" column="0" />
       </file>
       <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/LoginActivity.java" timestamp="1558233249613" />
+      <file name="M:/Andorid/sise/app/src/main/AndroidManifest.xml" timestamp="1558236584636">
+        <mark key="[" line="34" column="19" />
+      </file>
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/net/NetTask.java" timestamp="1555749561722">
         <mark key="[" line="2" column="12" />
       </file>
@@ -361,7 +370,7 @@
       <file name="$USER_HOME$/AndroidStudioProjects/Mvp_java/app/src/main/java/com/example/mvp_java/ipinfo/IpInfoContract.java" timestamp="1555749408980">
         <mark key="[" line="2" column="33" />
       </file>
-      <file name="/fragment.java" timestamp="1558232711351">
+      <file name="/fragment.java" timestamp="1558235740175">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -384,13 +393,14 @@
       <jump line="1" column="1" filename="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" />
       <jump line="46" column="32" filename="M:/Andorid/sise/app/src/main/java/com/example/sise/util/JsoupUtil.java" />
       <jump line="13" column="17" filename="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" />
+      <jump line="32" column="25" filename="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CiAqIFBhY2thZ2U6ICR7UEFDS0FHRV9OQU1FfS4=</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHB1YmxpYyBzdGF0aWMg</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>show</text>
@@ -399,36 +409,32 @@
         <text encoding="base64">IExpc3Q8U3RyaW5nPiBjb3Vyc2VMaXN0ID0gSnNvdXBVdGlsLmdldGluZm9MaXN0KHJlc3VsdCk7CiAgICAgICAgICAgICAgICBpZiAobnVsbCAhPSBjb3Vyc2VMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICK78cihuPbIy9DFz6KzybmmISI7Ci8vICAgICAgICAgICAgICAgICAgICBTY2hlZHVsZUFjdGl2aXR5LmFjdGlvblN0YXJ0KGNvbnRleHQsIGNvdXJzZUxpc3QpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gIrvxyKG49sjL0MXPosqnsNwsx+vW2MrUISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTs=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CiAqIFBhY2thZ2U6ICR7UEFDS0FHRV9OQU1FfS4=</text>
+        <text>@SuppressLint(&quot;ResourceType&quot;)
+    @Override</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">CiAqIFBhY2thZ2U6IGNvbS5leGFtcGxlLnNpc2UuYWN0aXZpdHku</text>
+        <text encoding="base64">CiAgICAgICAgZmluYWwgU3RyaW5nIGh0bWw7</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIAo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgcHJpdmF0ZSBSZXNwb25zZSBfZ2V0U3luYyhTdHJpbmcgdXJsKSB0aHJvd3MgSU9FeGNlcHRpb24gewogICAgICAgIGZpbmFsIFJlcXVlc3QgcmVxdWVzdCA9IG5ldyBSZXF1ZXN0LkJ1aWxkZXIoKS51cmwodXJsKS5idWlsZCgpOwogICAgICAgIENhbGwgY2FsbCA9IG1Pa0h0dHBDbGllbnQubmV3Q2FsbChyZXF1ZXN0KTsKICAgICAgICBSZXNwb25zZSByZXNwb25zZSA9IGNhbGwuZXhlY3V0ZSgpOwogICAgICAgIHJldHVybiByZXNwb25zZTsKICAgIH0KICAgIHByaXZhdGUgU3RyaW5nIF9nZXRTeW5jU3RyaW5nKFN0cmluZyB1cmwpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgUmVzcG9uc2UgcmVzcG9uc2UgPSBfZ2V0U3luYyh1cmwpOwogICAgICAgIHJldHVybiByZXNwb25zZS5ib2R5KCkuc3RyaW5nKCk7CiAgICB9</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBuZXcgSW5kZXhVcmxHZXQoKTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICAgICAgfQ==</text>
+        <text encoding="base64">CiAqIFBhY2thZ2U6ICR7UEFDS0FHRV9OQU1FfS4=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdbXSBpbmZvbGlzdCA9IG5ldyBBcnJheUxpc3Q7Cg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">CiAqIFBhY2thZ2U6IGNvbS5leGFtcGxlLnNpc2UuYWN0aXZpdHku</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">PFNjcm9sbFZpZXcKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICA8VGFibGVMYXlvdXQKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiPgogICAgICAgICAgICA8VGFibGVMYXlvdXQ+CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgPC9UYWJsZUxheW91dD4KICAgICAgICAgICAgCiAgICAgICAgPC9UYWJsZUxheW91dD4KICAgIDwvU2Nyb2xsVmlldz4=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">PEdyaWRMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICAKICAgIDwvR3JpZExheW91dD4=</text>
+        <text encoding="base64">ICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBuZXcgSW5kZXhVcmxHZXQoKTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICAgICAgfQ==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IDxMaW5lYXJMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICAKICAgIDwvTGluZWFyTGF5b3V0Pg==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmdbXSBpbmZvbGlzdCA9IG5ldyBBcnJheUxpc3Q7Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>//        try {
-//            return getInstance()._postlogin(url,body,headers);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        return false;</text>
+        <text encoding="base64">PFNjcm9sbFZpZXcKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KICAgICAgICA8VGFibGVMYXlvdXQKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiPgogICAgICAgICAgICA8VGFibGVMYXlvdXQ+CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgPC9UYWJsZUxheW91dD4KICAgICAgICAgICAgCiAgICAgICAgPC9UYWJsZUxheW91dD4KICAgIDwvU2Nyb2xsVmlldz4=</text>
       </register>
     </registers>
     <search>
