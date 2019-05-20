@@ -32,7 +32,7 @@
       <file name="M:/Andorid/WeChat/app/src/main/java/com/example/wechat/fragment/ContentFragment.java" timestamp="1556249866159">
         <mark key="[" line="10" column="36" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/JsoupUtil.java" timestamp="1558363516996">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/JsoupUtil.java" timestamp="1558364836992">
         <mark key="[" line="53" column="0" />
         <mark key="]" line="53" column="0" />
         <mark key="." line="53" column="0" />
@@ -179,11 +179,11 @@
         <mark key="[" line="7" column="53" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/mycookiejar.java" timestamp="1558362757381" />
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558363416828">
-        <mark key="'" line="40" column="25" />
-        <mark key="[" line="43" column="8" />
-        <mark key="]" line="43" column="8" />
-        <mark key="." line="43" column="8" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558365377597">
+        <mark key="'" line="41" column="25" />
+        <mark key="[" line="41" column="8" />
+        <mark key="]" line="41" column="8" />
+        <mark key="." line="41" column="8" />
       </file>
       <file name="M:/Andorid/toolbar/webcrawler/build.gradle" timestamp="1558099675504">
         <mark key="[" line="32" column="54" />
@@ -403,10 +403,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">L1NJU0VXZWIvcHViL3N0dWRlbnRzdGF0dXMvbGF0ZVN0dWRlbnRBY3Rpb24uZG8/bWV0aG9kPWRvTWFpbiZnekNvZGU9MTc0MDEyOTIyOCZtZDVDb2RlPWM3Yjc0MzYzNmQyNjY0NDM4ZmI1NDBiZTUzMDc5MjQyCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGNsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9OWM1OTJlYjEyYTQxZDc1NTE5NGVkMjY4NzhlYTU4NmU=</text>
+        <text>//TODO 需补全url,删除testurl</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>//TODO 需补全url,删除testurl</text>
       </register>
       <register name="/" type="4">
         <text>show</text>
@@ -415,12 +415,15 @@
         <text encoding="base64">IExpc3Q8U3RyaW5nPiBjb3Vyc2VMaXN0ID0gSnNvdXBVdGlsLmdldGluZm9MaXN0KHJlc3VsdCk7CiAgICAgICAgICAgICAgICBpZiAobnVsbCAhPSBjb3Vyc2VMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICK78cihuPbIy9DFz6KzybmmISI7Ci8vICAgICAgICAgICAgICAgICAgICBTY2hlZHVsZUFjdGl2aXR5LmFjdGlvblN0YXJ0KGNvbnRleHQsIGNvdXJzZUxpc3QpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gIrvxyKG49sjL0MXPosqnsNwsx+vW2MrUISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTs=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">L1NJU0VXZWIvcHViL3N0dWRlbnRzdGF0dXMvbGF0ZVN0dWRlbnRBY3Rpb24uZG8/bWV0aG9kPWRvTWFpbiZnekNvZGU9MTc0MDEyOTIyOCZtZDVDb2RlPWM3Yjc0MzYzNmQyNjY0NDM4ZmI1NDBiZTUzMDc5MjQyCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGNsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9OWM1OTJlYjEyYTQxZDc1NTE5NGVkMjY4NzhlYTU4NmU=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgTG9nLmQoIiIsIiIpOw==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICBtRGVsaXZlcnkucG9zdChuZXcgUnVubmFibGUoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBydW4oKSB7CiAgICAgICAgICAgICAgICBpZiAoY2FsbGJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrLm9uUmVzcG9uc2UoYnl0ZXMpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSk7</text>
+        <text encoding="base64">L1NJU0VXZWIvcHViL3N0dWRlbnRzdGF0dXMvbGF0ZVN0dWRlbnRBY3Rpb24uZG8/bWV0aG9kPWRvTWFpbiZnekNvZGU9MTc0MDEyOTIyOCZtZDVDb2RlPWM3Yjc0MzYzNmQyNjY0NDM4ZmI1NDBiZTUzMDc5MjQyCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGNsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9OWM1OTJlYjEyYTQxZDc1NTE5NGVkMjY4NzhlYTU4NmU=</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ICBtRGVsaXZlcnkucG9zdChuZXcgUnVubmFibGUoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBydW4oKSB7CiAgICAgICAgICAgICAgICBpZiAoY2FsbGJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrLm9uUmVzcG9uc2UoYnl0ZXMpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSk7</text>
+      </register>
+      <register name="4" type="4">
         <text>//        Runnable runnable = new Runnable() {
 //            @Override
 //            public void run() {
@@ -430,23 +433,20 @@
 //            }
 //        };</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgIAogICAgICAgIFFNVUlSb3VuZEJ1dHRvbiB2aW9sYXRpb25zID0gKFFNVUlSb3VuZEJ1dHRvbilmaW5kVmlld0J5SWQoUi5pZC5WaW9sYXRpb25zKTsK</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgIAo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAK</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBRTVVJUm91bmRCdXR0b24gaW5mbyA9IChRTVVJUm91bmRCdXR0b24pZmluZFZpZXdCeUlkKFIuaWQuaW5mbyk7Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgIC8vu/HIobj2yMvQxc+i0rPD5tDFz6IKLy8gICAgcHVibGljIHN0YXRpYyBpbmZvKCl7Ci8vCi8vICAgIH0=</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">ICBwdWJsaWMgc3RhdGljIHZvaWQgcG9zdGluZm8oKXsKICAgICAgICAKICAgIH0=</text>
+        <text encoding="base64">ICAgIC8vu/HIobj2yMvQxc+i0rPD5tDFz6IKLy8gICAgcHVibGljIHN0YXRpYyBpbmZvKCl7Ci8vCi8vICAgIH0=</text>
       </register>
     </registers>
     <search>
