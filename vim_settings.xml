@@ -137,10 +137,10 @@
       <file name="M:/Andorid/remusic-master/build.gradle" timestamp="1556029965989">
         <mark key="[" line="7" column="51" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558425370203">
-        <mark key="[" line="53" column="8" />
-        <mark key="]" line="53" column="8" />
-        <mark key="." line="53" column="8" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558425674830">
+        <mark key="[" line="39" column="4" />
+        <mark key="]" line="39" column="4" />
+        <mark key="." line="39" column="4" />
       </file>
       <file name="M:/Andorid/sise/app/.gitignore" timestamp="1557591408854">
         <mark key="[" line="3" column="19" />
@@ -183,9 +183,9 @@
         <mark key="]" line="3" column="2" />
         <mark key="." line="3" column="2" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558425224194">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558426026417">
         <mark key="'" line="42" column="25" />
-        <mark key="[" line="56" column="69" />
+        <mark key="[" line="55" column="69" />
         <mark key="]" line="42" column="8" />
         <mark key="." line="42" column="8" />
       </file>
@@ -238,10 +238,10 @@
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/view/addclass.java" timestamp="1558150389573">
         <mark key="[" line="2" column="23" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/TeachingEvaluation.java" timestamp="1558423838788">
-        <mark key="[" line="41" column="15" />
-        <mark key="]" line="26" column="8" />
-        <mark key="." line="26" column="8" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/TeachingEvaluation.java" timestamp="1558425939615">
+        <mark key="[" line="51" column="3" />
+        <mark key="]" line="51" column="3" />
+        <mark key="." line="51" column="3" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/res/layout/teachinevaluation.xml" timestamp="1558341173954">
         <mark key="[" line="7" column="0" />
@@ -407,10 +407,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>//TODO 待完成登陆状态检测</text>
+        <text encoding="base64">IHB1YmxpYyB2b2lkIGdldHVybCgpewoKICAgIH0=</text>
       </register>
       <register name="-" type="4">
-        <text>//TODO 待完成登陆状态检测</text>
+        <text encoding="base64">IGluaXRnZXR1cmwoKTs=</text>
       </register>
       <register name="/" type="4">
         <text>show</text>
@@ -418,10 +418,28 @@
       <register name="0" type="4">
         <text encoding="base64">IExpc3Q8U3RyaW5nPiBjb3Vyc2VMaXN0ID0gSnNvdXBVdGlsLmdldGluZm9MaXN0KHJlc3VsdCk7CiAgICAgICAgICAgICAgICBpZiAobnVsbCAhPSBjb3Vyc2VMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICK78cihuPbIy9DFz6KzybmmISI7Ci8vICAgICAgICAgICAgICAgICAgICBTY2hlZHVsZUFjdGl2aXR5LmFjdGlvblN0YXJ0KGNvbnRleHQsIGNvdXJzZUxpc3QpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gIrvxyKG49sjL0MXPosqnsNwsx+vW2MrUISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTs=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB1cmxnZXQuCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">IHB1YmxpYyB2b2lkIGdldHVybCgpewoKICAgIH0=</text>
       </register>
       <register name="2" type="4">
+        <text>private void initgeturl() {
+        try {
+            IndexUrlGet indexUrlGet = new IndexUrlGet();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ICBzeW5jaHJvbml6ZWQgKHRoaXMpewogICAgICAgICAgICBpbml0Z2V0dXJsKCk7CiAgICAgICAgfQ==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">IHByaXZhdGUgdm9pZCBpbml0Z2V0dXJsKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIEluZGV4VXJsR2V0IGluZGV4VXJsR2V0ID0gbmV3IEluZGV4VXJsR2V0KCk7CiAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgIH0KICAgIH0=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB1cmxnZXQuCg==</text>
+      </register>
+      <register name="6" type="4">
         <text>OkHttpUtil.postSearch(url, new OkHttpUtil.ResultCallback() {
             @Override
             public void onError(Call call, Exception e) {
@@ -441,33 +459,14 @@
             }
         });</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgTG9nLmQoIiIsIiIpOw==</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text encoding="base64">L1NJU0VXZWIvcHViL3N0dWRlbnRzdGF0dXMvbGF0ZVN0dWRlbnRBY3Rpb24uZG8/bWV0aG9kPWRvTWFpbiZnekNvZGU9MTc0MDEyOTIyOCZtZDVDb2RlPWM3Yjc0MzYzNmQyNjY0NDM4ZmI1NDBiZTUzMDc5MjQyCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGNsYXNzLnNpc2UuY29tLmNuOjcwMDEvU0lTRVdlYi9wdWIvc3R1ZGVudHN0YXR1cy9sYXRlU3R1ZGVudEFjdGlvbi5kbz9tZXRob2Q9ZG9NYWluJmd6Q29kZT0xNzQwMTI5MjI4Jm1kNUNvZGU9OWM1OTJlYjEyYTQxZDc1NTE5NGVkMjY4NzhlYTU4NmU=</text>
       </register>
-      <register name="5" type="4">
+      <register name="9" type="4">
         <text encoding="base64">ICBtRGVsaXZlcnkucG9zdChuZXcgUnVubmFibGUoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBydW4oKSB7CiAgICAgICAgICAgICAgICBpZiAoY2FsbGJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrLm9uUmVzcG9uc2UoYnl0ZXMpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSk7</text>
-      </register>
-      <register name="6" type="4">
-        <text>//        Runnable runnable = new Runnable() {
-//            @Override
-//            public void run() {
-//                if (callback != null){
-//                    callback.onResponse(bytes);
-//                }
-//            }
-//        };</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIAogICAgICAgIFFNVUlSb3VuZEJ1dHRvbiB2aW9sYXRpb25zID0gKFFNVUlSb3VuZEJ1dHRvbilmaW5kVmlld0J5SWQoUi5pZC5WaW9sYXRpb25zKTsK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAK</text>
       </register>
     </registers>
     <search>
