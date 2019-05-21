@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/Desktop/android-architecture-todo-mvp/todoapp/build.gradle" timestamp="1555815775795">
@@ -108,10 +108,10 @@
       <file name="M:/Andorid/remusic-master/build.gradle" timestamp="1556029965989">
         <mark key="[" line="7" column="51" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558447259044">
-        <mark key="[" line="39" column="4" />
-        <mark key="]" line="39" column="4" />
-        <mark key="." line="39" column="4" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558448523922">
+        <mark key="[" line="58" column="46" />
+        <mark key="]" line="43" column="4" />
+        <mark key="." line="43" column="4" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/IndexUrlGet.java" timestamp="1558423306144">
         <mark key="[" line="10" column="26" />
@@ -193,15 +193,16 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="25" column="6" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/TeachingEvaluation.java" timestamp="1558447682088">
-        <mark key="[" line="41" column="9" />
-        <mark key="]" line="110" column="112" />
-        <mark key="." line="110" column="112" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/TeachingEvaluation.java" timestamp="1558449656581">
+        <mark key="[" line="109" column="27" />
+        <mark key="]" line="109" column="27" />
+        <mark key="." line="109" column="27" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/res/layout/teachinevaluation.xml" timestamp="1558442234669">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="4" />
-        <mark key="." line="7" column="4" />
+      <file name="M:/Andorid/sise/app/src/main/res/layout/teachinevaluation.xml" timestamp="1558450975985">
+        <mark key="[" line="222" column="51" />
+        <mark key="]" line="222" column="51" />
+        <mark key="." line="222" column="51" />
+        <mark key="^" line="37" column="46" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/res/layout/activity_counsellor.xml" timestamp="1558442429716">
         <mark key="[" line="6" column="41" />
@@ -257,7 +258,7 @@
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/info.java" timestamp="1558281172449">
         <mark key="[" line="18" column="14" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" timestamp="1558409310093">
+      <file name="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" timestamp="1558450490232">
         <mark key="[" line="46" column="7" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/res/values/colors.xml" timestamp="1557498063518">
@@ -337,10 +338,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgSW5kZXhVcmxHZXQgdXJsZ2V0ID0gbnVsbDs=</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgSW5kZXhVcmxHZXQgdXJsZ2V0ID0gbnVsbDs=</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>show</text>
@@ -349,34 +350,31 @@
         <text encoding="base64">IExpc3Q8U3RyaW5nPiBjb3Vyc2VMaXN0ID0gSnNvdXBVdGlsLmdldGluZm9MaXN0KHJlc3VsdCk7CiAgICAgICAgICAgICAgICBpZiAobnVsbCAhPSBjb3Vyc2VMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICK78cihuPbIy9DFz6KzybmmISI7Ci8vICAgICAgICAgICAgICAgICAgICBTY2hlZHVsZUFjdGl2aXR5LmFjdGlvblN0YXJ0KGNvbnRleHQsIGNvdXJzZUxpc3QpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gIrvxyKG49sjL0MXPosqnsNwsx+vW2MrUISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTs=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">IHRyeSB7CiAgICAgICAgICAgIHVybGdldCA9IG5ldyBJbmRleFVybEdldCgpOwogICAgICAgICAgICB1cmwgPSB1cmxnZXQuZ2V0aW5mbygpOwogICAgICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgICB9</text>
+        <text encoding="base64">IDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOnRleHQ9IsbAt9YiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSJAY29sb3IvcW11aV9jb25maWdfY29sb3JfcmVkIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iNDBkcCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiIC8+</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">PEdyaWRWaWV3CiAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCI+CiAgICAgICAgICAgPFRhYmxlTGF5b3V0CiAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSIxNDBkcCIKICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIxNDBkcCI+CiAgICAgICAgICAgICAgIAogICAgICAgICAgIDwvVGFibGVMYXlvdXQ+CiAgICAgICA8L0dyaWRWaWV3Pg==</text>
+        <text encoding="base64">ICA8VGV4dFZpZXcKICAgICAgICBhbmRyb2lkOnRleHQ9IsbAt9YiCiAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci9xbXVpX2NvbmZpZ19jb2xvcl9yZWQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IjQwZHAiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiIC8+</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">PEdyaWRWaWV3CiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCI+CiAgICAgICAgCiAgICA8L0dyaWRWaWV3Pg==</text>
+        <text encoding="base64">IDwvTGluZWFyTGF5b3V0PgogICAgICAgIDxMaW5lYXJMYXlvdXQ=</text>
       </register>
       <register name="4" type="4">
-        <text>addclass.
-        layout_content.addView();</text>
+        <text encoding="base64">IDxFZGl0VGV4dAogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2V0MSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiIC8+</text>
       </register>
       <register name="5" type="4">
-        <text>public addclass(Context context){
-        this(context,null);
-    }</text>
+        <text encoding="base64">PFNwaW5uZXIKICAgICAgICAgICAgYW5kcm9pZDppZCA9ICJAK2lkLyIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGggPSAid3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQgPSIzMGRwIiA+CiAgICAgICAgPC9TcGlubmVyID4=</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">IEBPdmVycmlkZQogICAgcHJvdGVjdGVkIHZvaWQgb25DcmVhdGUoQnVuZGxlIHNhdmVkSW5zdGFuY2VTdGF0ZSkgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSk7CiAgICAgICAgc2V0Q29udGVudFZpZXcoUi5sYXlvdXQuYWN0aXZpdHlfYWRkY2xhc3MpOwogICAgICAgIGluaXR2aWV3KCk7CiAgICB9</text>
+        <text encoding="base64">PFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQgPSAiQCtpZC9rZW11IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aCA9ICJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodCA9ICI0MGRwIgogICAgICAgICAgICBhbmRyb2lkOnRleHQgPSAix+vRodTxv8bEvyIKICAgICAgICAgICAgLz4=</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">VGV4dFZpZXcgClRleHRWaWV3IApUZXh0VmlldyAKVGV4dFZpZXcgClRleHRWaWV3IA==</text>
+      <register name="7" type="4">
+        <text encoding="base64">VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iMSIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSIyMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIyMGRwIgogICAgICAgICAgICAgICAgLz4=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">PCEtLTxMaW5lYXJMYXlvdXQtLT4KICAgIDwhLS1hbmRyb2lkOmxheW91dF93aWR0aD0iMTVkcCItLT4KICAgIDwhLS1hbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCItLT4KICAgIDwhLS1hbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIgPi0tPgoKICAgIDwhLS08VGV4dFZpZXctLT4KICAgIDwhLS1hbmRyb2lkOmlkPSJAK2lkL3R2X2ZpcnN0X2FmdGVybm9vbl9jb3Vyc2UiLS0+CiAgICA8IS0tYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCItLT4KICAgIDwhLS1hbmRyb2lkOmxheW91dF9oZWlnaHQ9IjBkcCItLT4KICAgIDwhLS1hbmRyb2lkOmxheW91dF93ZWlnaHQ9IjEiLS0+CiAgICA8IS0tYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvc2NoZWR1bGVfbGVmdF9tZW51X2JhY2tncm91bmQiLS0+CiAgICA8IS0tYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiIC8+LS0+CgogICAgPCEtLTxUZXh0Vmlldy0tPgogICAgPCEtLWFuZHJvaWQ6aWQ9IkAraWQvdHZfc2Vjb25kX2FmdGVybm9vbl9jb3Vyc2UiLS0+CiAgICA8IS0tYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCItLT4KICAgIDwhLS1hbmRyb2lkOmxheW91dF9oZWlnaHQ9IjBkcCItLT4KICAgIDwhLS1hbmRyb2lkOmxheW91dF93ZWlnaHQ9IjEiLS0+CiAgICA8IS0tYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvc2NoZWR1bGVfbGVmdF9tZW51X2JhY2tncm91bmQiLS0+CiAgICA8IS0tYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiIC8+LS0+CgogICAgPCEtLTxUZXh0Vmlldy0tPgogICAgPCEtLWFuZHJvaWQ6aWQ9IkAraWQvdHZfdGhpcmRfYWZ0ZXJub29uX2NvdXJzZSItLT4KICAgIDwhLS1hbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50Ii0tPgogICAgPCEtLWFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iMGRwIi0tPgogICAgPCEtLWFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSItLT4KICAgIDwhLS1hbmRyb2lkOmJhY2tncm91bmQ9IkBkcmF3YWJsZS9zY2hlZHVsZV9sZWZ0X21lbnVfYmFja2dyb3VuZCItLT4KICAgIDwhLS1hbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIgLz4tLT4KICAgIDwhLS08L0xpbmVhckxheW91dD4tLT4=</text>
+        <text encoding="base64">IC8vIFRPRE8gQXV0by1nZW5lcmF0ZWQgbWV0aG9kIHN0dWIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8qKgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAqLw==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">Ci8vICAgICAgICBTdHJpbmcgZG9zdGFydG5hbWUgPSBVUkxFbmNvZGVyLmVuY29kZSgizazS4iIsICJnYjIzMTIiKTs=</text>
+        <text encoding="base64">IC8vIFRPRE8gQXV0by1nZW5lcmF0ZWQgbWV0aG9kIHN0dWIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8qIL2ry/nRoW15U3Bpbm5lciC1xNa1tPjI6215VGV4dFZpZXcg1tAqLw==</text>
       </register>
     </registers>
     <search>
