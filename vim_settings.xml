@@ -183,7 +183,7 @@
         <mark key="]" line="3" column="2" />
         <mark key="." line="3" column="2" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558426026417">
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558427959651">
         <mark key="'" line="42" column="25" />
         <mark key="[" line="55" column="69" />
         <mark key="]" line="42" column="8" />
@@ -238,10 +238,10 @@
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/view/addclass.java" timestamp="1558150389573">
         <mark key="[" line="2" column="23" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/TeachingEvaluation.java" timestamp="1558425939615">
-        <mark key="[" line="51" column="3" />
-        <mark key="]" line="51" column="3" />
-        <mark key="." line="51" column="3" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/TeachingEvaluation.java" timestamp="1558427974423">
+        <mark key="[" line="40" column="57" />
+        <mark key="]" line="40" column="57" />
+        <mark key="." line="40" column="57" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/res/layout/teachinevaluation.xml" timestamp="1558341173954">
         <mark key="[" line="7" column="0" />
@@ -407,10 +407,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHB1YmxpYyB2b2lkIGdldHVybCgpewoKICAgIH0=</text>
+        <text>.replace(&quot;\'&quot;,&quot;&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGluaXRnZXR1cmwoKTs=</text>
+        <text>.replace(&quot;\'&quot;,&quot;&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>show</text>
