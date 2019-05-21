@@ -137,10 +137,10 @@
       <file name="M:/Andorid/remusic-master/build.gradle" timestamp="1556029965989">
         <mark key="[" line="7" column="51" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558359302513">
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/MainActivity.java" timestamp="1558410010025">
+        <mark key="[" line="47" column="8" />
+        <mark key="]" line="47" column="8" />
+        <mark key="." line="47" column="8" />
       </file>
       <file name="M:/Andorid/sise/app/.gitignore" timestamp="1557591408854">
         <mark key="[" line="3" column="19" />
@@ -178,6 +178,11 @@
       <file name="$USER_HOME$/Desktop/SmackChat-master/SmackChat-master/build.gradle" timestamp="1557935498532">
         <mark key="[" line="7" column="53" />
       </file>
+      <file name="M:/Andorid/sise/app/src/main/res/layout/violations.xml" timestamp="1558409340625">
+        <mark key="[" line="3" column="2" />
+        <mark key="]" line="3" column="2" />
+        <mark key="." line="3" column="2" />
+      </file>
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" timestamp="1558365377597">
         <mark key="'" line="41" column="25" />
         <mark key="[" line="41" column="8" />
@@ -214,10 +219,10 @@
       <file name="M:/Android_flutter/flutter_app/classdesign/app/src/main/res/values/strings.xml" timestamp="1557218917001">
         <mark key="[" line="1" column="39" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/login.java" timestamp="1558362990265">
-        <mark key="[" line="141" column="24" />
-        <mark key="]" line="141" column="24" />
-        <mark key="." line="141" column="24" />
+      <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/login.java" timestamp="1558409648248">
+        <mark key="[" line="152" column="9" />
+        <mark key="]" line="142" column="24" />
+        <mark key="." line="142" column="24" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/util/OkhttpUtil.java" timestamp="1558103680045">
         <mark key="[" line="2" column="25" />
@@ -321,7 +326,7 @@
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/info.java" timestamp="1558281172449">
         <mark key="[" line="18" column="14" />
       </file>
-      <file name="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" timestamp="1558359138205">
+      <file name="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" timestamp="1558409310093">
         <mark key="[" line="46" column="7" />
       </file>
       <file name="M:/Andorid/sise/app/src/main/res/values/colors.xml" timestamp="1557498063518">
@@ -401,11 +406,11 @@
       <jump line="32" column="25" filename="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/Violations.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB1cmxnZXQuCg==</text>
+      <register name="&quot;" type="4">
+        <text>//TODO 待完成登陆状态检测</text>
       </register>
       <register name="-" type="4">
-        <text>//TODO 需补全url,删除testurl</text>
+        <text>//TODO 待完成登陆状态检测</text>
       </register>
       <register name="/" type="4">
         <text>show</text>
