@@ -311,9 +311,6 @@
         <mark key="." line="42" column="44" />
         <mark key="^" line="31" column="24" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1558491465762">
-        <mark key="[" line="46" column="30" />
-      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.0-alpha01/a451a8fd64609dffaa3b8c68a02665e034d933fd/okhttp-4.0.0-alpha01-sources.jar!/okhttp3/OkHttpClient.kt" timestamp="1558539944787" />
     </filemarks>
     <jumps>
@@ -339,10 +336,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>import HttpURLConnection.*;</text>
+        <text>// 在这里进行UI操作</text>
       </register>
       <register name="-" type="4">
-        <text>import HttpURLConnection.*;</text>
+        <text>// 在这里进行UI操作</text>
       </register>
       <register name="/" type="4">
         <text>show</text>
