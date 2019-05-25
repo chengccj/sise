@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sise">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,13 +11,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.counsellor" />
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-
             </intent-filter>
+        </activity>
+        <activity android:name=".activity.login">
+            <intent-filter>
+                <action android:name="android.intent.action.login" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Courseinfo">
+            <intent-filter>
+                <action android:name="android.intent.action.Courseinfo" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.scores">
+            <intent-filter>
+                <action android:name="android.intent.action.scorse" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Violations">
+            <intent-filter>
+                <action android:name="android.intent.action.Violations" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TeachingEvaluation">
+            <intent-filter>
+                <action android:name="android.intent.action.TeachingEvaluation" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TutorEvaluation">
+            <intent-filter>
+                <action android:name="android.intent.action.TutorEvaluation" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Schedlue">
+            
         </activity>
     </application>
 

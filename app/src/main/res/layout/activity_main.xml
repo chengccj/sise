@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activity.MainActivity"
     android:layout_centerVertical="true"
     android:orientation="vertical"
     android:gravity="center_horizontal">
@@ -46,14 +46,6 @@
         android:theme="@style/QUMITheme">
 
         <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
-            android:id="@+id/info"
-            android:layout_width="39dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:text="@string/info"
-            app:qmui_radiusTopLeft="6dp"
-            app:qmui_radiusTopRight="6dp" />
-        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
             android:id="@+id/schedlue"
             android:text="@string/schedlue"
             android:layout_width="wrap_content"
@@ -63,17 +55,6 @@
             app:qmui_radiusBottomRight="6dp"
             app:qmui_radiusTopLeft="6dp"
             app:qmui_radiusTopRight="6dp"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="bottom|center_horizontal"
-        android:theme="@style/QUMITheme">
-
-
         <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
             android:id="@+id/scores"
             android:layout_width="wrap_content"
@@ -86,12 +67,32 @@
             app:qmui_radiusTopRight="6dp" />
 
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom|center_horizontal"
+        android:theme="@style/QUMITheme">
+
         <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
-            android:id="@+id/Rewards_punishments"
+            android:id="@+id/TutorEvaluation"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/TutorEvaluation"
+            app:qmui_radiusBottomLeft="6dp"
+            app:qmui_radiusBottomRight="6dp"
+            app:qmui_radiusTopLeft="6dp"
+            app:qmui_radiusTopRight="6dp" />
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/TeachingEvaluation"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:text="@string/Rewards_punishments"
+            android:text="@string/TeachingEvaluation"
             app:qmui_radiusBottomLeft="6dp"
             app:qmui_radiusBottomRight="6dp"
             app:qmui_radiusTopLeft="6dp"
@@ -105,15 +106,16 @@
         android:theme="@style/QUMITheme">
 
         <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
-            android:id="@+id/courseinfo"
-            android:layout_width="107dp"
+            android:id="@+id/counsellor"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:text="@string/courseinfo"
+            android:text="@string/Counsellor"
             app:qmui_radiusBottomLeft="6dp"
             app:qmui_radiusBottomRight="6dp"
             app:qmui_radiusTopLeft="6dp"
             app:qmui_radiusTopRight="6dp" />
+
 
         <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
             android:id="@+id/Violations"
