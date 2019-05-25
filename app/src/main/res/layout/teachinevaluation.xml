@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/QUMITheme"
+    tools:context=".activity.TeachingEvaluation"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id = "@+id/kemu"
+            android:layout_width = "wrap_content"
+            android:layout_height = "40dp"
+            android:text = "请选择科目"
+            />
+
+        <Spinner
+            android:id = "@+id/one"
+            android:layout_width = "wrap_content"
+            android:layout_height ="30dp" >
+        </Spinner >
+        <!--<TextView-->
+        <!--android:id = "@+id/teacher"-->
+        <!--android:layout_width = "wrap_content"-->
+        <!--android:layout_height = "wrap_content"-->
+        <!--android:text = "请选择老师"-->
+        <!--/>-->
+
+        <!--<Spinner-->
+        <!--android:id = "@+id/teach"-->
+        <!--android:layout_width = "wrap_content"-->
+        <!--android:layout_height ="wrap_content" >-->
+        <!--</Spinner >-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="序号"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="评估内容"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+      <TextView
+          android:text="评分"
+          android:textColor="@color/qmui_config_color_red"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="	提前做好上课准备工作，严格遵守上下课时间，无私自停课、调课现象。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="3"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="按时布置作业(实验报告)，批改认真，并有相应记录。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="4"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="认真搞好课堂教学管理，严抓课堂纪律，维持教学秩序。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="5"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="	教学内容正确，符合教材和教学大纲的要求。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="6"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="	课堂教学活动组织有条理，教学过程紧凑，教学效率高、效果好。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="7"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="教学重点突出，逻辑性强，设疑解难，注重培养学生的分析问题、解决问题能力。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="8"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="语言表达清晰、讲授生动，通俗易懂。。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="9"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="	课件制作水平高，简明易懂，板书字迹清楚。。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="top"
+    android:orientation="horizontal">
+
+    <TextView
+        android:text="10"
+        android:layout_width="40dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="教学方法先进，课堂互动效果好，能激发学生的学习兴趣。"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+    <EditText
+        android:id="@+id/et10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="10"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="	辅导认真，答疑耐心。"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="建议"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/jianyi"
+            android:layout_width="200dp"
+            android:layout_height="300dp" />
+
+        <Button
+            android:id="@+id/queding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

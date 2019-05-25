@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">sise</string>
+    <string name="topbar">华软mysise</string>
+    <string name="schedlue">课程表</string>
+    <string name="attendance">考勤</string>
+    <string name="test">考试时间</string>
+    <string name="scores">考试成绩</string>
+    <string name="TeachingEvaluation">教学评价</string>
+    <string name="TutorEvaluation">学习导师评价</string>
+    <string name="Counsellor">辅导员评价 </string>
+    <string name="Violations">晚归，违规电器</string>
+    <string name="mon">星期一</string>
+    <string name="tues">星期二</string>
+    <string name="wed">星期三</string>
+    <string name="thur">星期四</string>
+    <string name="fri">星期五</string>
+    <string name="sat">星期六</string>
+    <string name="sun">星期六</string>
+    <string name="login">登录成功</string>
+</resources>
