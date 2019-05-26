@@ -159,11 +159,16 @@
         <mark key="]" line="3" column="2" />
         <mark key="." line="3" column="2" />
       </file>
-      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/ScheduleActivity.java" timestamp="1558846900691">
-        <mark key="[" line="32" column="0" />
+      <file name="M:/Andorid/toolbar/webcrawler/src/main/java/com/example/webcrawler/activity/ScheduleActivity.java" timestamp="1558848294036">
+        <mark key="[" line="65" column="72" />
+        <mark key="]" line="65" column="72" />
+        <mark key="." line="65" column="72" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1558840946425">
-        <mark key="[" line="36" column="69" />
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/MainActivity.java" timestamp="1558848565860">
+        <mark key="[" line="45" column="40" />
+        <mark key="]" line="45" column="40" />
+        <mark key="." line="45" column="40" />
+        <mark key="^" line="41" column="16" />
       </file>
       <file name="M:/Andorid/toolbar/webcrawler/build.gradle" timestamp="1558099675504">
         <mark key="[" line="32" column="54" />
@@ -252,7 +257,11 @@
       <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/Jsouputil.java" timestamp="1558144591835">
         <mark key="[" line="2" column="24" />
       </file>
-      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/aview.java" timestamp="1558847076433" />
+      <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/aview.java" timestamp="1558848171165">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+      </file>
       <file name="M:/Andorid/toolbar/app/src/main/java/com/example/toolbar/SectionHeader.java" timestamp="1558715555393">
         <mark key="'" line="31" column="0" />
         <mark key="[" line="13" column="62" />
@@ -275,6 +284,7 @@
       <file name="M:/Andorid/sise/app/src/main/java/com/example/sise/activity/info.java" timestamp="1558281172449">
         <mark key="[" line="18" column="14" />
       </file>
+      <file name="D:/Android_SDK/platforms/android-28/android.jar!/android/view/ViewGroup.class" timestamp="1558848129783" />
       <file name="M:/Andorid/sise/app/src/main/res/layout/activity_main.xml" timestamp="1558838335197">
         <mark key="[" line="53" column="42" />
         <mark key="]" line="53" column="42" />
@@ -358,10 +368,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHQuc2V0VGV4dCgidGVzdCIpOwogICAgICAgIGxpbmUuYWRkVmlldyh0ZXN0KTsKICAgICAgICBsaW5lLmFkZFZpZXcodGVzdDEpOw==</text>
+        <text>]</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>]</text>
       </register>
       <register name="/" type="4">
         <text>300</text>
@@ -369,49 +379,35 @@
       <register name="0" type="4">
         <text encoding="base64">IExpc3Q8U3RyaW5nPiBjb3Vyc2VMaXN0ID0gSnNvdXBVdGlsLmdldGluZm9MaXN0KHJlc3VsdCk7CiAgICAgICAgICAgICAgICBpZiAobnVsbCAhPSBjb3Vyc2VMaXN0KSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICK78cihuPbIy9DFz6KzybmmISI7Ci8vICAgICAgICAgICAgICAgICAgICBTY2hlZHVsZUFjdGl2aXR5LmFjdGlvblN0YXJ0KGNvbnRleHQsIGNvdXJzZUxpc3QpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gIrvxyKG49sjL0MXPosqnsNwsx+vW2MrUISI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTs=</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">IHQuc2V0VGV4dCgidGVzdCIpOwogICAgICAgIGxpbmUuYWRkVmlldyh0ZXN0KTsKICAgICAgICBsaW5lLmFkZFZpZXcodGVzdDEpOw==</text>
+      <register name="1" type="8">
+        <text>[i]
+[i]
+[i]
+[i]</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">IGF2aWV3IHRlc3QgPSBuZXcgYXZpZXcoTWFpbkFjdGl2aXR5LnRoaXMpOwogICAgICAgIGF2aWV3IHRlc3QxID0gbmV3IGF2aWV3KE1haW5BY3Rpdml0eS50aGlzKTs=</text>
+        <text encoding="base64">CiAgICAgICAgTW9ybmluZ0NvdXJzZUNvbnRlbnRzW10gbW9ybmluZ0NvdXJzZUNvbnRlbnRzMSA9IG5ldyBNb3JuaW5nQ291cnNlQ29udGVudHNbXQ==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICBwdWJsaWMgVGV4dFZpZXcgZ2V0VHZfZmlyc3RfYWZ0ZXJub29uX2NvdXJzZSgpIHsKICAgICAgICByZXR1cm4gdHZfZmlyc3RfYWZ0ZXJub29uX2NvdXJzZTsKICAgIH0=</text>
+        <text encoding="base64">ICAgIGF2aWV3KCl7CiAgICAgICAgCiAgICB9</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CiAgICBwdWJsaWMgYXZpZXcoQ29udGV4dCBjb250ZXh0LCBBdHRyaWJ1dGVTZXQgYXR0cnMsIGludCBkZWZTdHlsZUF0dHIsIGludCBkZWZTdHlsZVJlcykgewogICAgICAgIHN1cGVyKGNvbnRleHQsIGF0dHJzLCBkZWZTdHlsZUF0dHIsIGRlZlN0eWxlUmVzKTsKICAgIH0=</text>
+        <text encoding="base64">CiAgICBhdmlldyhDb250ZXh0IGNvbnRleHQpWzNdIHsKICAgICAgICB0aGlzKCk7CiAgICB9</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSI=</text>
+        <text encoding="base64">IHQuc2V0VGV4dCgidGVzdCIpOwogICAgICAgIGxpbmUuYWRkVmlldyh0ZXN0KTsKICAgICAgICBsaW5lLmFkZFZpZXcodGVzdDEpOw==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQi</text>
+        <text encoding="base64">IGF2aWV3IHRlc3QgPSBuZXcgYXZpZXcoTWFpbkFjdGl2aXR5LnRoaXMpOwogICAgICAgIGF2aWV3IHRlc3QxID0gbmV3IGF2aWV3KE1haW5BY3Rpdml0eS50aGlzKTs=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSI=</text>
+        <text encoding="base64">ICBwdWJsaWMgVGV4dFZpZXcgZ2V0VHZfZmlyc3RfYWZ0ZXJub29uX2NvdXJzZSgpIHsKICAgICAgICByZXR1cm4gdHZfZmlyc3RfYWZ0ZXJub29uX2NvdXJzZTsKICAgIH0=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSI=</text>
+        <text encoding="base64">CiAgICBwdWJsaWMgYXZpZXcoQ29udGV4dCBjb250ZXh0LCBBdHRyaWJ1dGVTZXQgYXR0cnMsIGludCBkZWZTdHlsZUF0dHIsIGludCBkZWZTdHlsZVJlcykgewogICAgICAgIHN1cGVyKGNvbnRleHQsIGF0dHJzLCBkZWZTdHlsZUF0dHIsIGRlZlN0eWxlUmVzKTsKICAgIH0=</text>
       </register>
       <register name="9" type="4">
-        <text>public aview(Context context){
-        super(context);
-
-    }
-    public aview(Context context, AttributeSet attrs){
-        super(context,attrs,0);
-    }
-    public aview(Context context, AttributeSet attrs, int defStyleAttr){
-        super(context,attrs,defStyleAttr);
-        LayoutInflater mInflater = LayoutInflater.from(context);
-        View view = mInflater.inflate(R.layout.courseclass, null);
-        TextView t1 = (TextView)findViewById(R.id.tv_afternoon_course_monday);
-        TextView t2 = (TextView)view.findViewById(R.id.tv_afternoon_course_thursday);
-        TextView t3 = (TextView)view.findViewById(R.id.tv_afternoon_course_tuesday);
-        t1.setText(&quot;diyige&quot;);
-        t2.setText(&quot;dierge&quot;);
-        t3.setText(&quot;disange&quot;);
-    }</text>
+        <text encoding="base64">CiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSI=</text>
       </register>
       <register name=":" type="4">
         <text>%s/300/250/g</text>
