@@ -72,10 +72,10 @@
       <file name="M:/Andorid/WeChat/app/src/main/java/com/example/wechat/LoginActivity.java" timestamp="1556179288681">
         <mark key="[" line="9" column="43" />
       </file>
-      <file name="M:/Andorid/sise/app/build.gradle" timestamp="1558948887188">
-        <mark key="[" line="31" column="4" />
-        <mark key="]" line="31" column="4" />
-        <mark key="." line="31" column="4" />
+      <file name="M:/Andorid/sise/app/build.gradle" timestamp="1558971532339">
+        <mark key="[" line="33" column="57" />
+        <mark key="]" line="33" column="57" />
+        <mark key="." line="33" column="57" />
       </file>
       <file name="M:/Andorid/custom_view/app/build.gradle" timestamp="1556001335341">
         <mark key="[" line="20" column="14" />
@@ -236,6 +236,9 @@
       <file name="$USER_HOME$/Desktop/WeChat For Android Studio/app/src/main/res/layout/layout_bottom.xml" timestamp="1557364895677">
         <mark key="[" line="19" column="34" />
       </file>
+      <file name="M:/Andorid/sise/build.gradle" timestamp="1558971285026">
+        <mark key="[" line="9" column="56" />
+      </file>
       <file name="M:/Andorid/框架/Side-Menu.Android-master/app/build.gradle" timestamp="1555927497174">
         <mark key="[" line="11" column="23" />
       </file>
@@ -375,10 +378,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHB1YmxpYyBjbGFzcyBzZXRWYWx1ZSgpewogICAgICAgIAogICAgfQ==</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>300</text>
