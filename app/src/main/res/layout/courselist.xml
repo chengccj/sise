@@ -11,11 +11,11 @@
         android:layout_height="25dp"
         android:orientation="horizontal" >
 
-        <TextView
-            android:layout_width="15dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="" />
+        <!--<TextView-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="" />-->
 
         <TextView
             android:layout_width="0dp"
@@ -62,194 +62,20 @@
             android:textSize="20sp"
             android:background="@color/qmui_config_color_red"/>
     </LinearLayout>
-   <ScrollView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
-      <TableLayout
-          android:layout_width="match_parent"
-          android:layout_height="match_parent">
-          <TableRow>
-              <TextView
-                  android:layout_width="15dp"
-                  android:layout_height="match_parent"
-                  android:gravity="center"
-                  android:text="" />
-              <TextView
-                  android:id="@+id/tv11"
-                  android:layout_width="78dp"
-                  android:layout_height="170dp"/>
-              <TextView
-                  android:id="@+id/tv12"
-                  android:layout_width="78dp"
-                  android:layout_height="170dp"/>
-              <TextView
-                  android:id="@+id/tv13"
-                  android:layout_width="78dp"
-                  android:layout_height="170dp"/>
-              <TextView
-                  android:id="@+id/tv14"
-                  android:layout_width="78dp"
-                  android:layout_height="170dp"/>
-              <TextView
-                  android:id="@+id/tv15"
-                  android:layout_width="78dp"
-                  android:layout_height="170dp"/>
-          </TableRow>
-      </TableLayout>
-   </ScrollView>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TableRow>
-                <TextView
-                    android:layout_width="15dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="" />
-                <TextView
-                    android:id="@+id/tv21"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv22"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv23"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv24"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv25"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-            </TableRow>
-        </TableLayout>
-    </ScrollView>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TableRow>
-                <TextView
-                    android:layout_width="15dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="" />
-                <TextView
-                    android:id="@+id/tv31"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv32"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv33"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv34"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv35"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-            </TableRow>
-        </TableLayout>
-    </ScrollView>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TableRow>
-                <TextView
-                    android:layout_width="15dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="" />
-                <TextView
-                    android:id="@+id/tv41"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv42"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv43"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv44"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv45"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-            </TableRow>
-        </TableLayout>
-    </ScrollView>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TableRow>
-                <TextView
-                    android:layout_width="15dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="" />
-                <TextView
-                    android:id="@+id/tv51"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv52"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv53"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv54"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-                <TextView
-                    android:id="@+id/tv55"
-                    android:layout_width="78dp"
-                    android:layout_height="170dp"/>
-            </TableRow>
-        </TableLayout>
-    </ScrollView>
 
-    <!--<ScrollView-->
-        <!--android:id="@+id/course_scrollview"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent" >-->
 
-        <!--<LinearLayout-->
-            <!--android:id="@+id/layout_schedule_content"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:orientation="vertical" >-->
-        <!--</LinearLayout>-->
-    <!--</ScrollView>-->
+    <ScrollView
+        android:id="@+id/course_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/course_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

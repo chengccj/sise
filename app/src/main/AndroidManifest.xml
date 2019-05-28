@@ -49,9 +49,7 @@
                 <action android:name="android.intent.action.TutorEvaluation" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.Schedlue">
-            
-        </activity>
+        <activity android:name=".activity.Schedlue"></activity>
     </application>
 
 </manifest>

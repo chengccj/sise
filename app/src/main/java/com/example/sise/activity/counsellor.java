@@ -3,6 +3,7 @@ package com.example.sise.activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.sise.R;
 /**
@@ -20,6 +21,8 @@ public class counsellor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_counsellor);
         TextView error = (TextView)findViewById(R.id.error);
-        error.setText("非可评时间！！！");
+        Toast.makeText(this,"非可评时间",Toast.LENGTH_SHORT).show();
+        finish();
     }
+    
 }

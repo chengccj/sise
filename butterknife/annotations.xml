@@ -1,0 +1,5 @@
+<root>
+    <item name='butterknife.BindViews'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

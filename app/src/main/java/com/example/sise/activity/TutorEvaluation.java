@@ -17,5 +17,6 @@ public class TutorEvaluation extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Toast.makeText(this,"非可评时间！！！",Toast.LENGTH_SHORT).show();
+        finish();
     }
 }

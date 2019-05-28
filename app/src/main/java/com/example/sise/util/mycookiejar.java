@@ -12,7 +12,7 @@ import okhttp3.HttpUrl;
 public class mycookiejar implements CookieJar {
 //    CookieJar cookieJar = new CookieJar() {
         //Cookie缓存区
-        private final Map<String, List<Cookie>> cookiesMap = new HashMap<String, List<Cookie>>();
+        private static Map<String, List<Cookie>> cookiesMap = new HashMap<String, List<Cookie>>();
         @Override
         public void saveFromResponse(HttpUrl arg0, List<Cookie> arg1) {
             // TODO Auto-generated method stub
@@ -34,5 +34,9 @@ public class mycookiejar implements CookieJar {
         //注：这里不能返回null，否则会报NULLException的错误。
         //原因：当Request 连接到网络的时候，OkHttp会调用loadForRequest()
         return cookiesList != null ? cookiesList : new ArrayList<Cookie>();
+    }
+    public static void reset(HttpUrl httpUrl){
+            String host = httpUrl.host();
+            cookiesMap.put(host,null);
     }
 }

@@ -58,8 +58,8 @@ public class JsoupUtil {
 
 
     //获取课表信息
-    public static List<Map<String,String>> getcourse(String html){
-        List<Map<String,String>> courselist = new ArrayList<>();
+    public static ArrayList getcourse(String html){
+        ArrayList courselist = new ArrayList();
         if (html == null){
             return courselist;
         }
@@ -69,19 +69,15 @@ public class JsoupUtil {
         Elements tr = data.getElementsByTag("tr");
 
         int index = 0;
-        for (int i = 1; i <= tr.size()-2; i += 1) {
+        for (int i = 1; i <= tr.size()-1; i += 1) {
             Elements td = tr.get(i).getElementsByTag("td");
             Elements course = td.select("td[align=\"left\"]");
 
-            Map<String, String> map = new HashMap<String, String>();
-            for (int j = 0; j < course.size(); j++) {
+            for (int j = 0; j < 5; j++) {
                 String content = course.get(j).text();
-                if (!content.equals("")) {
-                    map.put(time[index], content);
-                }
+                courselist.add(content);
                 index++;
             }
-            courselist.add(map);
             index = 0;
         }
         return courselist;
@@ -92,7 +88,10 @@ public class JsoupUtil {
         ArrayList scorelist = new ArrayList();
         Document document = Jsoup.parse(html);
         Elements elements = document.getElementsByTag("td");
-        for (int i = 30;i < elements.size()-120;i ++){
+        for (int i = 30;i < elements.size()-29;i ++){
+//            if (i >=520 && i <= 528){
+//                continue;
+//            }
             String str = elements.get(i).text();
             Log.d("test","test");
             scorelist.add(str);
@@ -103,6 +102,17 @@ public class JsoupUtil {
     //学习导师评价
 
     //教学评价
+    //获取隐藏信息
+    public static ArrayList gethidden(String html){
+        ArrayList arrayList = new ArrayList();
+        Document document = Jsoup.parse(html);
+        Elements elements = document.getElementsByTag("input");
+        for (int i =0;i <elements.size();i++){
+            String str = elements.get(i).attr("value");
+            arrayList.add(str);
+        }
+        return arrayList;
+    }
     //获取课程代码
     public static ArrayList getcourseid(String html){
         ArrayList courseid = new ArrayList();
@@ -116,6 +126,7 @@ public class JsoupUtil {
         return courseid;
     }
 
+    //教师id获取
     public static String getteacherid(String html){
         String teacherid = null;
         Document document = Jsoup.parse(html);

@@ -1,9 +1,9 @@
 package com.example.sise.view;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -12,39 +12,44 @@ import com.example.sise.R;
 public class addclass extends LinearLayout {
     private TextView monday,tuesday,wednesday,thursday,friday;
 
-    public addclass(Context context){
-        super(context);
-    }
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_addclass);
-//        initview();
-//    }
 
-    private void initview() {
-        monday = (TextView)findViewById(R.id.monday);
-        tuesday = (TextView)findViewById(R.id.tuesday);
-        wednesday = (TextView)findViewById(R.id.wednesday);
-        thursday = (TextView)findViewById(R.id.thursday);
-        friday = (TextView)findViewById(R.id.friday);
+    public addclass(Context context) {
+        this(context,null);
     }
 
-    public void setMonday(String str){
-        monday.setText(str);
+    public addclass(Context context, AttributeSet attrs) {
+        this(context, attrs,0);
     }
 
-    public void setTuesday(String str){
-        monday.setText(str);
-    }
-    public void setWednesday(String str){
-        monday.setText(str);
-    }
-    public void setThursday(String str){
-        monday.setText(str);
-    }
-    public void setFriday(String str){
-        monday.setText(str);
+    public addclass(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        LayoutInflater mInflater = LayoutInflater.from(context);
+        View view = mInflater.inflate(R.layout.activity_addclass, this);
+
+        monday = (TextView)view.findViewById(R.id.monday);
+        tuesday = (TextView)view.findViewById(R.id.tuesday);
+        wednesday = (TextView)view.findViewById(R.id.wednesday);
+        thursday = (TextView)view.findViewById(R.id.thursday);
+        friday = (TextView) view.findViewById(R.id.friday);
     }
 
+    public void setMonday(String str) {
+       monday.setText(str);
+    }
+
+    public void setTuesday(String str) {
+        tuesday.setText(str);
+    }
+
+    public void setWednesday(String str) {
+        wednesday.setText(str);
+    }
+
+    public void setThursday(String str) {
+        thursday.setText(str);
+    }
+
+    public void setFriday(String str) {
+        friday.setText(str);
+    }
 }

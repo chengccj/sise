@@ -68,9 +68,9 @@ public class OkHttpUtil {
 //                final String str = response.body().string();//去掉注释会挂掉，原因未知
                 Headers headers = response.headers();
                 httpUrl = request.url();
-                List<Cookie> cookies = Cookie.parseAll(httpUrl, headers);
-                mOkHttpClient.cookieJar().saveFromResponse(httpUrl, cookies);
-                Log.d("cookie","cookie");
+//                List<Cookie> cookies = Cookie.parseAll(httpUrl, headers);
+//                mOkHttpClient.cookieJar().saveFromResponse(httpUrl, cookies);
+                Log.d("cookie", "cookie");
                 final byte[] bytes = response.body().bytes();
                 sendSuccessResultCallback(bytes, callback);
             }
@@ -79,50 +79,72 @@ public class OkHttpUtil {
 
     /**
      * 返回登录页的隐藏信息
+     *
      * @return
      */
-    private String _getInfo(String url,ResultCallback callback){
-        Request infoRequest = new Request.Builder()
-                    .url(url)
-                    .build();
-        deliveryResult(callback, infoRequest);
-        return null;
+    private void _getInfo(String url, final ResultCallback callback) {
+        final Request infoRequest = new Request.Builder()
+                .url(url)
+                .build();
+//        deliveryResult(callback, infoRequest);
+        mOkHttpClient.newCall(infoRequest).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+//                String html = response.body().string();
+                final byte[] bytes = response.body().bytes();
+                Headers headers = response.headers();
+                HttpUrl url = infoRequest.url();
+                List<Cookie> cookies = Cookie.parseAll(url, headers);
+                mOkHttpClient.cookieJar().saveFromResponse(url, cookies);
+                mDelivery.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (callback != null) {
+                            callback.onResponse(bytes);
+                        }
+                    }
+                });
+            }
+        });
     }
 
     /**
-     *
      * @param url
      * @return 个人信息首页对应的链接
      * @throws IOException
      */
-    private String _getindexinfo(String url) throws IOException{
+    private String _getindexinfo(String url) throws IOException {
         StringBuilder cookieStr = new StringBuilder();
         //从缓存中获取Cookie
         List<Cookie> cookies = mOkHttpClient.cookieJar().loadForRequest(httpUrl);
         //将Cookie数据弄成一行
-        for(Cookie cookie : cookies){
-            cookieStr.append(cookie.name()).append("=").append(cookie.value()+";");
+        for (Cookie cookie : cookies) {
+            cookieStr.append(cookie.name()).append("=").append(cookie.value() + ";");
         }
         Request indexrequest = new Request.Builder()
                 .url(url)
-                .header("Cookie",cookieStr.toString())
+                .header("Cookie", cookieStr.toString())
                 .build();
-             Call call = mOkHttpClient.newCall(indexrequest);
-             Response indexresponse = call.execute();
-             return indexresponse.body().string();
+        Call call = mOkHttpClient.newCall(indexrequest);
+        Response indexresponse = call.execute();
+        return indexresponse.body().string();
     }
 
     /**
      * 同步返回response(或选择异步返回?)
-     * TODO test时返回类型为void,待修改为Response
      */
-    private void _postSearch(String url,final ResultCallback callback){
+    private void _postSearch(String url, final ResultCallback callback) {
         StringBuilder cookieStr = new StringBuilder();
         //从缓存中获取Cookie
         List<Cookie> cookies = mOkHttpClient.cookieJar().loadForRequest(loginUrl);
         //将Cookie数据弄成一行
-        for(Cookie cookie : cookies){
-            cookieStr.append(cookie.name()).append("=").append(cookie.value()+";");
+        for (Cookie cookie : cookies) {
+            cookieStr.append(cookie.name()).append("=").append(cookie.value() + ";");
         }
         Request searchRequest = new Request.Builder()
                 .url(url)
@@ -133,6 +155,7 @@ public class OkHttpUtil {
 
     /**
      * 各个项目获取response的方法
+     *
      * @param url
      * @param callback
      */
@@ -143,40 +166,41 @@ public class OkHttpUtil {
         HttpUrl u = httpUrl;
         List<Cookie> cookies = mOkHttpClient.cookieJar().loadForRequest(httpUrl);
         //将Cookie数据弄成一行
-        for(Cookie cookie : cookies){
-            cookieStr.append(cookie.name()).append("=").append(cookie.value()+";");
+        for (Cookie cookie : cookies) {
+            cookieStr.append(cookie.name()).append("=").append(cookie.value() + ";");
         }
         //TODO 改写成get请求方法
-        final Request request = new Request.Builder().header("Cookie",cookieStr.toString()).url(url).build();
+        final Request request = new Request.Builder().header("Cookie", cookieStr.toString()).url(url).build();
         deliveryResult(callback, request);
     }
 
     /**
      * 教学评价相关
+     *
      * @param url
      * @param body
      * @param callback
      */
-    private void _postevaluation(String url, Map<String, String> body, final ResultCallback callback) {
+    private void _postevaluation(String url, FormBody.Builder body, final ResultCallback callback) {
         //body == params
-        FormBody.Builder formBodyBuilder = new FormBody.Builder();
+//        FormBody.Builder formBodyBuilder = new FormBody.Builder();
         StringBuilder cookieStr = new StringBuilder();
         //从缓存中获取Cookie
         List<Cookie> cookies = mOkHttpClient.cookieJar().loadForRequest(httpUrl);
         //将Cookie数据弄成一行
-        for(Cookie cookie : cookies){
-            cookieStr.append(cookie.name()).append("=").append(cookie.value()+";");
+        for (Cookie cookie : cookies) {
+            cookieStr.append(cookie.name()).append("=").append(cookie.value() + ";");
         }
-
-        RequestData[] bodyArr = mapToRequestDatas(body);
-        for (RequestData param : bodyArr) {
-            formBodyBuilder.add(param.key, param.value);
-        }
-        RequestBody requestBody = formBodyBuilder.build();
+//
+//        RequestData[] bodyArr = mapToRequestDatas(body);
+//        for (RequestData param : bodyArr) {
+//            formBodyBuilder.add(param.key, param.value);
+//        }
+        RequestBody Body = body.build();
         final Request request = new Request.Builder()
                 .url(url)
-                .post(requestBody)
-                .header("Cookie",cookieStr.toString())
+                .post(Body)
+                .header("Cookie", cookieStr.toString())
                 .build();
 
         mOkHttpClient.newCall(request).enqueue(new Callback() {
@@ -187,14 +211,13 @@ public class OkHttpUtil {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-             byte[] bytes = response.body().bytes();
-              sendSuccessResultCallback(bytes,callback);
+                byte[] bytes = response.body().bytes();
+                sendSuccessResultCallback(bytes, callback);
             }
         });
     }
 
     /**
-     *
      * @param params
      * @return Map键值对数据转化为RequestData数组
      */
@@ -280,8 +303,6 @@ public class OkHttpUtil {
     }
 
 
-
-
     /**
      * 调用请求失败对应的回调方法，利用handler.post使得回调方法在UI线程中执行
      */
@@ -310,6 +331,7 @@ public class OkHttpUtil {
             }
         });
     }
+
     public static class RequestData {
         String key;
         String value;
@@ -328,31 +350,34 @@ public class OkHttpUtil {
 
     /**
      * 登录页面获取隐藏值
+     *
      * @param url
      * @return
      * @throws IOException
      */
-    public static String getinfo(String url,ResultCallback callback){
-        return getInstance()._getInfo(url,callback);
+    public static void getinfo(String url, ResultCallback callback) {
+        getInstance()._getInfo(url, callback);
     }
 
-    public static void postLogin(String url,Map<String,String> body,Map<String,String> headers,ResultCallback callback){
-       getInstance()._postlogin(url,body,headers,callback);
+    public static void postLogin(String url, Map<String, String> body, Map<String, String> headers, ResultCallback callback) {
+        getInstance()._postlogin(url, body, headers, callback);
     }
 
-    public static String getindexinfo(String url)throws IOException{
+    public static String getindexinfo(String url) throws IOException {
         return getInstance()._getindexinfo(url);
     }
 
 
-    public static void postSearch(String url,ResultCallback callback) {
-        getInstance()._postSearch(url,callback);
+    public static void postSearch(String url, ResultCallback callback) {
+        getInstance()._postSearch(url, callback);
     }
-    public static void getAsync(String url,ResultCallback callback){
-        getInstance()._getAsync(url,callback);
+
+    public static void getAsync(String url, ResultCallback callback) {
+        getInstance()._getAsync(url, callback);
     }
-    public static void postvaluation(String url,Map<String,String>body,ResultCallback callback){
-        getInstance()._postevaluation(url,body,callback);
+
+    public static void postvaluation(String url, FormBody.Builder body, ResultCallback callback) {
+        getInstance()._postevaluation(url, body, callback);
     }
 
 }
